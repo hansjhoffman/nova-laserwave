@@ -174,7 +174,7 @@ markup.strikethrough {
 }
 
 markup.list.item {
-  color: $roman-silver;
+  color: $pearl-aqua;
 }
 
 markup.code {
@@ -186,7 +186,22 @@ markup.link {
 }
 
 markup.block.quote {
+  color: $pearl-aqua;
+}
+
+markup.block.code {
+  background-color: $raisin-black;
   color: $roman-silver;
+}
+
+markup.inline.code {
+  background-color: $raisin-black;
+  color: $roman-silver;
+}
+
+markdown.image.markup.link,
+markdown.markup.link-inline {
+  color: $african-violet;
 }
 
 /* JSON */
