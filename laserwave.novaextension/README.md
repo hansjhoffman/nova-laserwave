@@ -31,3 +31,10 @@ laserwave also offers a lighter alternative:
 -->
 
 laserwave is based on _Original laserwave_ by [Lauren Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum).
+
+### Currently supports:
+
+- Markdown
+- JSON
+- Makefile
+- Shell
