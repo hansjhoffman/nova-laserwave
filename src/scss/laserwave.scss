@@ -173,34 +173,18 @@ markup.strikethrough {
   color: $hot-pink;
 }
 
-markup.list.item {
-  color: $pearl-aqua;
-}
-
-markup.code {
-  background-color: $hot-pink;
-}
-
-markup.link {
-  color: $hot-pink;
-}
-
+markup.list.item,
 markup.block.quote {
   color: $pearl-aqua;
 }
 
-markup.block.code {
-  background-color: $raisin-black;
-  color: $roman-silver;
-}
-
+markup.block.code,
 markup.inline.code {
   background-color: $raisin-black;
   color: $roman-silver;
 }
 
-markdown.image.markup.link,
-markdown.markup.link-inline {
+markup.link {
   color: $african-violet;
 }
 
