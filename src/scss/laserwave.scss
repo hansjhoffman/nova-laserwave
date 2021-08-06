@@ -32,7 +32,7 @@ meta.titlebar {
 meta.titlebar.inactive {
 }
 
-/* Syntax styles */
+/* Syntax styles - https://docs.nova.app/extensions/themes */
 
 comment {
   font-style: italic;
@@ -87,6 +87,19 @@ value.entity {
 identifier.global,
 identifier.variable {
   color: $white;
+}
+
+identifier.function {
+  color: $hot-pink;
+}
+
+identifier.type {
+  color: $african-violet;
+}
+
+/* Definitions */
+
+definition.type {
 }
 
 /* Strings */
@@ -145,7 +158,7 @@ tag.name {
 /* Styles */
 
 style.at {
-  color: red;
+  color: $maximum-blue;
   font-weight: bold;
 }
 
