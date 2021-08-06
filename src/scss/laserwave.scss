@@ -122,21 +122,13 @@ cdata {
 
 /* Tags */
 
-tag {
-  color: $pearl-aqua;
-}
-
 tag.attribute.name {
   color: $hot-pink;
 }
 
-// tag.attribute.double-quoted {
-//   color: $old-lavender;
-// }
-
-// tag.attribute.href.double-quoted {
-//   color: $powder-blue;
-// }
+tag.open {
+  color: $pearl-aqua;
+}
 
 tag.attribute.value {
   color: $powder-blue;
@@ -145,22 +137,6 @@ tag.attribute.value {
 tag.attribute.operator {
   color: $pearl-aqua;
 }
-
-// tag.attribute.value.link {
-//   color: hsl(210, 100%, 70%);
-// }
-//
-// tag.framework {
-//   color: hsl(280, 30%, 50%);
-// }
-//
-// tag.framework.attribute.name {
-//   color: hsl(320, 60%, 70%);
-// }
-//
-// tag.framework.name {
-//   color: hsl(280, 60%, 70%);
-// }
 
 tag.name {
   color: $pearl-aqua;
