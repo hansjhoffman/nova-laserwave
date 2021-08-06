@@ -10,7 +10,7 @@ $white: #ffffff; // variables
 $raisin-black: #19151e; // background
 
 meta {
-  -theme-display-name: "Laserwave (High Contrast)";
+  -theme-display-name: "LaserWave (High Contrast)";
   -theme-interface-style: dark;
   -theme-accent-color: auto;
 }
@@ -56,7 +56,6 @@ operator {
 }
 
 invalid {
-  // background-color: rgba(206, 105, 142, 0.9); // #ce698e
   background-color: lighten(#ce698e, 10%);
   color: #f8f8f1;
 }
@@ -139,7 +138,8 @@ tag.attribute.name {
   color: $hot-pink;
 }
 
-tag.open {
+tag.open,
+tag.close {
   color: $pearl-aqua;
 }
 

@@ -1,18 +1,12 @@
-<!--
-👋 Hello! As Nova users browse the extensions library, a good README can help them understand what your extension does, how it works, and what setup or configuration it may require.
-
-Not every extension will need every item described below. Use your best judgement when deciding which parts to keep to provide the best experience for your new users.
-
-💡 Quick Tip! As you edit this README template, you can preview your changes by selecting **Extensions → Activate Project as Extension**, opening the Extension Library, and selecting "laserwave" in the sidebar.
-
-Let's get started!
--->
+<p align="center" style="margin-bottom: 50px">
+  <img alt="LaserWave logo" src="Images/extension/laserwave-logo.png">
+</p>
 
 <!--
 🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
 -->
 
-**laserwave** provides a fun, bright palette:
+**LaserWave** provides a fun, metro palette:
 
 ![](https://nova.app/images/en/dark/editor.png)
 
@@ -20,21 +14,19 @@ Let's get started!
 🎈 If your extension provides multiple variations, don't forget to show those too!
 -->
 
-laserwave also offers a lighter alternative:
+LaserWave also offers a high contrast alternative:
 
 ![](https://nova.app/images/en/light/editor.png)
 
-## Acknowledgements
-
-<!--
-🎈 If your theme is based on existing work by someone else, consider crediting the original author
--->
-
-laserwave is based on _Original laserwave_ by [Lauren Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum).
-
-### Currently supports:
+## Currently supports:
 
 - Markdown
 - JSON
 - Makefile
 - Shell
+- HTML
+- SCSS/CSS/SASS
+
+## Acknowledgements
+
+LaserWave is based on the _Original LaserWave_ by [Jaredk3nt](https://github.com/Jaredk3nt/laserwave).
