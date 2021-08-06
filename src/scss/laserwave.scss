@@ -1,0 +1,354 @@
+$maximum-blue: hsl(187, 84, 52); // #1ed3ec --> keywords, properties
+$hot-pink: hsl(322, 100, 66); // #ff52bf --> functions, attributes, highlighting
+$powder-blue: hsl(194, 68, 81); // #acdfef --> strings
+$african-violet: hsl(284, 85, 75); // #d887f5 --> numbers, types
+$pearl-aqua: hsl(165, 80, 58); // #3feabf --> operators, tags
+$old-lavender: hsl(268, 13, 71); // #b4abbe --> comments
+$roman-silver: hsl(263, 23, 72); // #b4a8c8 --> punctuation
+$mustard: hsl(49, 100, 69); // #ffe261 --> built-ins, constants
+$white: hsl(0, 0, 100); // #ffffff --> variables
+$raisin-black: hsl(267, 18, 10); // #19151e --> background
+
+meta {
+  -theme-display-name: "Laserwave (High Contrast)";
+  -theme-interface-style: dark;
+  -theme-accent-color: auto;
+}
+
+/* Window styles */
+
+meta.window {
+  background-color: $raisin-black;
+  // border-color: hsl(233, 15, 21);
+  border-color: $raisin-black;
+}
+
+meta.titlebar {
+  color: hsl(210, 17%, 76%);
+  // border-color: hsla(0, 0%, 0%, 0.6);
+  border-color: hsl(233, 15, 21);
+}
+
+meta.titlebar.inactive {
+}
+
+/* Syntax styles */
+
+comment {
+  font-style: italic;
+  color: $old-lavender;
+}
+
+processing {
+  color: #000;
+}
+
+declaration {
+  color: $maximum-blue;
+}
+
+bracket {
+  color: $roman-silver;
+}
+
+operator {
+  color: $roman-silver;
+}
+
+invalid {
+  // background-color: rgba(206, 105, 142, 0.9); // #ce698e
+  background-color: lighten(#ce698e, 10%);
+  color: #f8f8f1;
+}
+
+link {
+  color: blue;
+}
+
+/* Keywords */
+
+keyword {
+  color: $maximum-blue;
+}
+
+/* Values */
+
+value,
+value.boolean,
+value.number,
+value.null,
+value.symbol,
+value.entity {
+  color: $mustard;
+}
+
+/* Identifiers */
+
+identifier.global,
+identifier.variable {
+  color: $white;
+}
+
+/* Strings */
+
+string {
+  color: $powder-blue;
+}
+
+string.key {
+}
+
+string-template {
+  color: red;
+}
+
+string-template.value {
+  color: blue;
+}
+
+regex {
+  color: red;
+}
+
+regex.escaped {
+  color: blue;
+}
+
+cdata {
+  color: red;
+}
+
+/* Types */
+
+/* Tags */
+
+tag {
+  color: $pearl-aqua;
+}
+
+tag.attribute.name {
+  color: $hot-pink;
+}
+
+// tag.attribute.double-quoted {
+//   color: $old-lavender;
+// }
+
+// tag.attribute.href.double-quoted {
+//   color: $powder-blue;
+// }
+
+tag.attribute.value {
+  color: $powder-blue;
+}
+
+tag.attribute.operator {
+  color: $pearl-aqua;
+}
+
+tag.attribute.value.link {
+  color: hsl(210, 100%, 70%);
+}
+
+tag.framework {
+  color: hsl(280, 30%, 50%);
+}
+
+tag.framework.attribute.name {
+  color: hsl(320, 60%, 70%);
+}
+
+tag.framework.name {
+  color: hsl(280, 60%, 70%);
+}
+
+tag.name {
+  color: $pearl-aqua;
+}
+
+/* Styles */
+
+style.at {
+  color: red;
+  font-weight: bold;
+}
+
+/* Markdown */
+
+markup.heading {
+  color: $maximum-blue;
+}
+
+markup.line {
+  color: $hot-pink;
+}
+
+markup.bold {
+  color: $hot-pink;
+  font-weight: bold;
+}
+
+markup.italic {
+  color: $hot-pink;
+  font-style: italic;
+}
+
+markup.strikethrough {
+  color: $hot-pink;
+}
+
+markup.list.item {
+  color: $roman-silver;
+}
+
+markup.code {
+  background-color: $hot-pink;
+}
+
+markup.link {
+  color: $hot-pink;
+}
+
+markup.block.quote {
+  color: $roman-silver;
+}
+
+/* JSON */
+
+json.comma {
+  color: $roman-silver;
+}
+
+json.key {
+  color: $maximum-blue;
+}
+
+/* YAML */
+
+yaml.string.unquoted {
+  color: $powder-blue;
+}
+
+yaml.operator.literal {
+  color: $mustard;
+}
+
+/* SCSS */
+
+scss.style.operator {
+  color: $maximum-blue;
+}
+
+/* CSS */
+
+css.style.selector.identifier.name.class {
+  color: $hot-pink;
+}
+
+/* Shell Script */
+
+shell.definition.function {
+  color: $hot-pink;
+}
+
+shell.string-template {
+  color: $old-lavender;
+}
+
+shell.keyword.builtin-command {
+  color: $hot-pink;
+}
+
+shell.operator {
+  color: $pearl-aqua;
+}
+
+/* Makefile */
+
+makefile.identifier {
+  color: $hot-pink;
+}
+
+makefile.identifier.dependencies {
+  color: $old-lavender;
+}
+
+/* Terminal */
+
+terminal.black {
+  color: #000;
+}
+
+terminal.bright-black {
+  color: #000;
+}
+
+terminal.blue {
+  color: #40b4c4;
+}
+
+terminal.bright-blue {
+  color: $maximum-blue;
+}
+
+terminal.cyan {
+  color: #b4dce7;
+}
+
+terminal.bright-cyan {
+  color: $powder-blue;
+}
+
+terminal.green {
+  color: #74dfc4;
+}
+
+terminal.bright-green {
+  color: $pearl-aqua;
+}
+
+terminal.magenta {
+  color: #b381c5;
+}
+
+terminal.bright-magenta {
+  color: $african-violet;
+}
+
+terminal.red {
+  color: #eb64b9;
+}
+
+terminal.bright-red {
+  color: $hot-pink;
+}
+
+terminal.yellow {
+  color: $mustard;
+}
+
+terminal.bright-yellow {
+  color: $mustard;
+}
+
+terminal.white {
+  color: $white;
+}
+
+terminal.bright-white {
+  color: $white;
+}
+
+/* Typescript */
+
+typescript.keyword.self {
+  color: $mustard;
+}
+
+typescript.operator {
+  color: $roman-silver;
+}
+
+// typescript.definition.interface {
+//   color: $african-violet;
+// }

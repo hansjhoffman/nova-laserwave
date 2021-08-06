@@ -1,0 +1,10 @@
+{
+  "name": "nova-laserwave",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "@hansjhoffman",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.37.5"
+  }
+}
