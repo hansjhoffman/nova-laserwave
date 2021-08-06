@@ -2,7 +2,7 @@
   "identifier": "hansjhoffman.laserwave",
   "name": "LaserWave",
   "organization": "@hansjhoffman",
-  "description": "Port of VSCode LaserWave theme.",
+  "description": "Port of the LaserWave theme for Nova.",
   "version": "0.1.0",
   "categories": ["themes"],
   "license": "MIT",
