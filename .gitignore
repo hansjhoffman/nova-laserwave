@@ -2,7 +2,7 @@
 .DS_Store
 
 # Text Editor
-.nova
+.nova/Configuration
 .idea
 .vscode
 
