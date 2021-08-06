@@ -1,13 +1,13 @@
-$maximum-blue: hsl(187, 84, 52); // #1ed3ec --> keywords, properties
-$hot-pink: hsl(322, 100, 66); // #ff52bf --> functions, attributes, highlighting
-$powder-blue: hsl(194, 68, 81); // #acdfef --> strings
-$african-violet: hsl(284, 85, 75); // #d887f5 --> numbers, types
-$pearl-aqua: hsl(165, 80, 58); // #3feabf --> operators, tags
-$old-lavender: hsl(268, 13, 71); // #b4abbe --> comments
-$roman-silver: hsl(263, 23, 72); // #b4a8c8 --> punctuation
-$mustard: hsl(49, 100, 69); // #ffe261 --> built-ins, constants
-$white: hsl(0, 0, 100); // #ffffff --> variables
-$raisin-black: hsl(267, 18, 10); // #19151e --> background
+$maximum-blue: #1ed3ec; // keywords, properties
+$hot-pink: #ff52bf; // functions, attributes, highlighting
+$powder-blue: #acdfef; // strings
+$african-violet: #d887f5; // numbers, types
+$pearl-aqua: #3feabf; // operators, tags
+$old-lavender: #b4abbe; // comments
+$roman-silver: #b4a8c8; // punctuation
+$mustard: #ffe261; // built-ins, constants
+$white: #ffffff; // variables
+$raisin-black: #19151e; // background
 
 meta {
   -theme-display-name: "Laserwave (High Contrast)";
@@ -24,9 +24,9 @@ meta.window {
 }
 
 meta.titlebar {
-  color: hsl(210, 17%, 76%);
+  color: #b7c2cc;
   // border-color: hsla(0, 0%, 0%, 0.6);
-  border-color: hsl(233, 15, 21);
+  // border-color: hsl(233, 15, 21);
 }
 
 meta.titlebar.inactive {
@@ -146,21 +146,21 @@ tag.attribute.operator {
   color: $pearl-aqua;
 }
 
-tag.attribute.value.link {
-  color: hsl(210, 100%, 70%);
-}
-
-tag.framework {
-  color: hsl(280, 30%, 50%);
-}
-
-tag.framework.attribute.name {
-  color: hsl(320, 60%, 70%);
-}
-
-tag.framework.name {
-  color: hsl(280, 60%, 70%);
-}
+// tag.attribute.value.link {
+//   color: hsl(210, 100%, 70%);
+// }
+//
+// tag.framework {
+//   color: hsl(280, 30%, 50%);
+// }
+//
+// tag.framework.attribute.name {
+//   color: hsl(320, 60%, 70%);
+// }
+//
+// tag.framework.name {
+//   color: hsl(280, 60%, 70%);
+// }
 
 tag.name {
   color: $pearl-aqua;

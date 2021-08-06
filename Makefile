@@ -40,7 +40,7 @@ build: ## Make a production build
 
 .PHONY: clean
 clean: ## Remove build artifacts
-	rm -rf laserwave.novaextension/Scripts
+	rm -rf laserwave.novaextension/Themes
 
 .PHONY: deps
 deps: ## Install all dependencies
