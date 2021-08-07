@@ -24,6 +24,10 @@ meta.button {
   background-color: #d887f5;
 }
 
+meta.button.disabled {
+  background: linear-gradient(rgba(61, 63, 67, 0.3), rgba(51, 53, 56, 0.3));
+}
+
 meta.button.highlighted {
   background-color: #c958f1;
 }
@@ -41,14 +45,44 @@ meta.textfield {
   border-color: #2e3033;
 }
 
+meta.textfield.highlighted {
+  background-color: #4b3f5a;
+}
+
 meta.document {
   background-color: #19151e;
   border-color: #19151e;
 }
 
+meta.document.button {
+  color: #ffffff;
+  background-color: #d887f5;
+}
+
+meta.document.button.disabled {
+  background: linear-gradient(rgba(61, 63, 67, 0.3), rgba(51, 53, 56, 0.3));
+}
+
+meta.document.button.highlighted {
+  background-color: #c958f1;
+}
+
+meta.document.textfield {
+  background-color: #322a3c;
+  border-color: #2e3033;
+}
+
+meta.document.textfield.highlighted {
+  background-color: #4b3f5a;
+}
+
 meta.text {
   color: #dcdbdd;
   background-color: #19151e;
+}
+
+meta.text.invisible {
+  color: rgba(204, 230, 255, 0.15);
 }
 
 meta.text.selected {
