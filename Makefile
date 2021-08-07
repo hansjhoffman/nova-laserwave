@@ -46,9 +46,12 @@ clean: ## Remove build artifacts
 deps: ## Install all dependencies
 	yarn install
 
-.PHONY: format-ts
-format-ts: ## Format typescript files
-	yarn prettier --write 'src/**/*.ts'
+.PHONY: format
+format: format-css format-xml ## Format css files
+
+.PHONY: format-css
+format-css: ## Format typescript files
+	yarn prettier --write 'src/**/*.scss'
 
 .PHONY: run
 run: ## Watch for code changes and recompile
