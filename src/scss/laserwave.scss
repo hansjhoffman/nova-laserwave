@@ -208,7 +208,20 @@ identifier.core {
 
 /* Types */
 
-definition.type {
+definition.class.name,
+definition.type.name,
+definition.package.name,
+definition.enum.name,
+definition.union.name,
+definition.struct.name {
+}
+
+/* Members */
+definition.property.name {
+}
+
+definition.function.name,
+definition.method.name {
 }
 
 /* Strings */
@@ -522,12 +535,16 @@ javascript.keyword.construct {
 
 /* JSX */
 
-jsx.value.variable.bracket {
-  color: $roman-silver;
-}
-
 jsx.tag-content.bare-words {
   color: $white;
+}
+
+jsx.value.variable {
+  color: $pearl-aqua;
+}
+
+jsx.value.variable.bracket {
+  color: $roman-silver;
 }
 
 /* Typescript */
@@ -540,7 +557,7 @@ typescript.semicolon {
 }
 
 typescript.identifier.key.name,
-typescript.identifier.property.name {
+typescript.identifier.property {
   color: $white;
 }
 
@@ -562,16 +579,16 @@ typescript.keyword.variable.let {
 
 /* TSX */
 
-tsx.value.variable.bracket {
-  color: $roman-silver;
+tsx.tag-content.bare-words {
+  color: $white;
 }
 
 tsx.value.variable {
   color: $pearl-aqua;
 }
 
-tsx.tag-content.bare-words {
-  color: $white;
+tsx.value.variable.bracket {
+  color: $roman-silver;
 }
 
 /* Elm */

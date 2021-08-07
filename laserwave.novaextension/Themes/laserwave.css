@@ -148,6 +148,7 @@ identifier.core {
 }
 
 /* Types */
+/* Members */
 /* Strings */
 string,
 string.key {
@@ -437,12 +438,16 @@ javascript.keyword.construct {
 }
 
 /* JSX */
-jsx.value.variable.bracket {
-  color: #b4a8c8;
-}
-
 jsx.tag-content.bare-words {
   color: #ffffff;
+}
+
+jsx.value.variable {
+  color: #3feabf;
+}
+
+jsx.value.variable.bracket {
+  color: #b4a8c8;
 }
 
 /* Typescript */
@@ -454,7 +459,7 @@ typescript.semicolon {
 }
 
 typescript.identifier.key.name,
-typescript.identifier.property.name {
+typescript.identifier.property {
   color: #ffffff;
 }
 
@@ -475,16 +480,16 @@ typescript.keyword.variable.let {
 }
 
 /* TSX */
-tsx.value.variable.bracket {
-  color: #b4a8c8;
+tsx.tag-content.bare-words {
+  color: #ffffff;
 }
 
 tsx.value.variable {
   color: #3feabf;
 }
 
-tsx.tag-content.bare-words {
-  color: #ffffff;
+tsx.value.variable.bracket {
+  color: #b4a8c8;
 }
 
 /* Elm */
