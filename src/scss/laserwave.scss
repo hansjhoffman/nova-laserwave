@@ -9,6 +9,8 @@ $mustard: #ffe261; // built-ins, constants
 $white: #ffffff; // variables
 $raisin-black: #19151e; // background
 
+$text-color: #dcdbdd;
+
 meta {
   -theme-display-name: "LaserWave (High Contrast)";
   -theme-interface-style: dark;
@@ -68,8 +70,11 @@ meta.document {
 }
 
 meta.text {
-  color: #dcdbdd;
+  color: $text-color;
   background-color: $raisin-black;
+}
+
+meta.text.invisible {
 }
 
 meta.text.selected {
@@ -299,6 +304,8 @@ style.attribute.name {
 
 style.attribute.separator,
 style.selector.operator,
+style.value.color.hsl.bracket,
+style.value.color.hsla.bracket,
 style.value.function.bracket {
   color: $old-lavender;
 }

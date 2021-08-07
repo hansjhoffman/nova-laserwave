@@ -229,6 +229,8 @@ style.attribute.name {
 
 style.attribute.separator,
 style.selector.operator,
+style.value.color.hsl.bracket,
+style.value.color.hsla.bracket,
 style.value.function.bracket {
   color: #b4abbe;
 }
