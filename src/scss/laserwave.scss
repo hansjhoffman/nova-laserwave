@@ -132,6 +132,10 @@ keyword {
   color: $maximum-blue;
 }
 
+keyword.self {
+  color: $mustard;
+}
+
 /* Values */
 
 value,
@@ -511,10 +515,6 @@ typescript.keyword.modifier,
 typescript.keyword.construct,
 typescript.keyword.variable.let {
   color: $african-violet;
-}
-
-typescript.keyword.self {
-  color: $mustard;
 }
 
 /* TSX */

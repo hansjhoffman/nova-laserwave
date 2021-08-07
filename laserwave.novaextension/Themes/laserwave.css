@@ -89,6 +89,10 @@ keyword {
   color: #1ed3ec;
 }
 
+keyword.self {
+  color: #ffe261;
+}
+
 /* Values */
 value,
 value.number,
@@ -422,10 +426,6 @@ typescript.keyword.modifier,
 typescript.keyword.construct,
 typescript.keyword.variable.let {
   color: #d887f5;
-}
-
-typescript.keyword.self {
-  color: #ffe261;
 }
 
 /* TSX */
