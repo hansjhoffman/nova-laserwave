@@ -115,7 +115,7 @@ bracket {
 }
 
 operator {
-  color: $roman-silver;
+  color: $pearl-aqua;
 }
 
 invalid {
@@ -159,6 +159,10 @@ identifier.type {
   color: $african-violet;
 }
 
+identifier.core {
+  color: $mustard;
+}
+
 /* Definitions */
 
 definition.type {
@@ -174,11 +178,11 @@ string.key {
 }
 
 string-template {
-  color: red;
+  color: $old-lavender;
 }
 
 string-template.value {
-  color: blue;
+  color: $african-violet;
 }
 
 regex {
@@ -218,11 +222,26 @@ tag.name {
   color: $pearl-aqua;
 }
 
-/* Styles */
+/* Styles (CSS, SCSS, etc) */
 
 style.at {
   color: $maximum-blue;
   font-weight: bold;
+}
+
+style.selector.identifier.name.class {
+  color: $hot-pink;
+}
+
+style.operator {
+  color: $maximum-blue;
+}
+
+style.attribute.separator,
+style.selector.operator,
+style.value.color.hsl.bracket,
+style.value.function.bracket {
+  color: $old-lavender;
 }
 
 /* Markdown */
@@ -282,18 +301,6 @@ yaml.string.unquoted {
 
 yaml.operator.literal {
   color: $mustard;
-}
-
-/* SCSS */
-
-scss.style.operator {
-  color: $maximum-blue;
-}
-
-/* CSS */
-
-css.style.selector.identifier.name.class {
-  color: $hot-pink;
 }
 
 /* Shell Script */
