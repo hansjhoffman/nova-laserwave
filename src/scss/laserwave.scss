@@ -276,19 +276,38 @@ style.at {
   font-weight: bold;
 }
 
-style.selector.identifier.name.class {
-  color: $hot-pink;
+style.attribute {
+  color: $white;
 }
 
-style.operator {
+style.attribute.name {
   color: $maximum-blue;
 }
 
 style.attribute.separator,
-style.selector.operator,
-style.value.color.hsl.bracket,
 style.value.function.bracket {
   color: $old-lavender;
+}
+
+style.selector.pseudoelement,
+style.selector.identifier.name.class {
+  color: $hot-pink;
+}
+
+style.selector.simple.element.identifier.name {
+  color: $pearl-aqua;
+}
+
+style.selector.simple.unknown {
+  color: $white;
+}
+
+style.value.keyword {
+  color: $white;
+}
+
+style.value.number.unit {
+  color: darken($african-violet, 10%);
 }
 
 /* Markdown */
@@ -500,6 +519,10 @@ javascript.keyword.construct {
 
 jsx.value.variable.bracket {
   color: $roman-silver;
+}
+
+jsx.tag-content.bare-words {
+  color: $white;
 }
 
 /* Typescript */
