@@ -91,12 +91,15 @@ keyword {
 
 /* Values */
 value,
-value.boolean,
 value.number,
-value.null,
-value.symbol,
-value.entity {
+value.entity,
+value.symbol {
   color: #d887f5;
+}
+
+value.boolean,
+value.null {
+  color: #ffe261;
 }
 
 /* Identifiers */
@@ -214,9 +217,14 @@ markup.strikethrough {
   color: #ff52bf;
 }
 
+markup.list.ordered,
+markup.list.unordered {
+  color: #ffffff;
+}
+
 markup.list.item,
 markup.block.quote {
-  color: #3feabf;
+  color: #b4abbe;
 }
 
 markup.block.code,
@@ -355,8 +363,11 @@ terminal.bright-white {
 }
 
 /* Javascript */
-javascript.keyword.construct {
-  color: #d887f5;
+javascript.colon,
+javascript.comma,
+javascript.dot,
+javascript.semicolon {
+  color: #b4a8c8;
 }
 
 javascript.identifier {
@@ -371,13 +382,6 @@ javascript.identifier.core.global {
 
 javascript.identifier.key.name {
   color: #1ed3ec;
-}
-
-javascript.colon,
-javascript.comma,
-javascript.dot,
-javascript.semicolon {
-  color: #b4a8c8;
 }
 
 javascript.keyword.construct {
