@@ -47,7 +47,7 @@ deps: ## Install all dependencies
 	yarn install
 
 .PHONY: format
-format: format-css format-xml ## Format css files
+format: format-css ## Format css files
 
 .PHONY: format-css
 format-css: ## Format typescript files
