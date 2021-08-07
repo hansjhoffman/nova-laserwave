@@ -20,6 +20,8 @@ LaserWave also offers a high contrast alternative:
 
 ## Currently supports:
 
+- Typescript & Javascript
+- JSX & TSX
 - Markdown
 - JSON
 - Yaml

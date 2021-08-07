@@ -347,20 +347,33 @@ javascript.keyword.construct {
   color: #d887f5;
 }
 
+javascript.identifier {
+  color: #ffffff;
+}
+javascript.identifier.function, javascript.identifier.method {
+  color: #ff52bf;
+}
+javascript.identifier.core.global {
+  color: #ffe261;
+}
+
 javascript.identifier.key.name {
   color: #1ed3ec;
 }
 
-javascript.identifier.method {
-  color: #ff52bf;
+javascript.colon,
+javascript.comma,
+javascript.dot,
+javascript.semicolon {
+  color: #b4a8c8;
 }
 
-javascript.identifier.name {
-  color: #ffffff;
+javascript.keyword.construct {
+  color: #d887f5;
 }
 
-javascript.semicolon,
-javascript.comma {
+/* JSX */
+jsx.value.variable.bracket {
   color: #b4a8c8;
 }
 

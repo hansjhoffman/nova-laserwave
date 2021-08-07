@@ -419,20 +419,37 @@ javascript.keyword.construct {
   color: $african-violet;
 }
 
+javascript.identifier {
+  color: $white;
+
+  &.function,
+  &.method {
+    color: $hot-pink;
+  }
+
+  &.core.global {
+    color: $mustard;
+  }
+}
+
 javascript.identifier.key.name {
   color: $maximum-blue;
 }
 
-javascript.identifier.method {
-  color: $hot-pink;
+javascript.colon,
+javascript.comma,
+javascript.dot,
+javascript.semicolon {
+  color: $roman-silver;
 }
 
-javascript.identifier.name {
-  color: $white;
+javascript.keyword.construct {
+  color: $african-violet;
 }
 
-javascript.semicolon,
-javascript.comma {
+/* JSX */
+
+jsx.value.variable.bracket {
   color: $roman-silver;
 }
 
