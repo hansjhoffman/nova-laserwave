@@ -128,12 +128,22 @@ link {
 
 /* Keywords */
 
-keyword {
+keyword,
+keyword.condition,
+keyword.statement {
   color: $maximum-blue;
+}
+
+keyword.modifier,
+keyword.construct {
+  color: $african-violet;
 }
 
 keyword.self {
   color: $mustard;
+}
+
+keyword.self.prefix {
 }
 
 /* Values */
@@ -196,18 +206,24 @@ identifier.core {
   color: $mustard;
 }
 
-/* Definitions */
+/* Types */
 
 definition.type {
 }
 
 /* Strings */
 
-string {
+string,
+string.key {
   color: $powder-blue;
 }
 
-string.key {
+string.delimeter {
+  color: darken($powder-blue, 5%);
+}
+
+string.escape {
+  color: ligthen($powder-blue, 5%);
 }
 
 string-template {
@@ -221,10 +237,11 @@ string-template.value {
 regex {
 }
 
-regex.escaped {
+regex.escape {
 }
 
 cdata {
+  color: $mustard;
 }
 
 /* Types */
@@ -511,8 +528,6 @@ typescript.identifier.type {
   color: $pearl-aqua;
 }
 
-typescript.keyword.modifier,
-typescript.keyword.construct,
 typescript.keyword.variable.let {
   color: $african-violet;
 }
