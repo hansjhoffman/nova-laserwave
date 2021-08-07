@@ -1,0 +1,1 @@
+laserwave.novaextension/CHANGELOG.md

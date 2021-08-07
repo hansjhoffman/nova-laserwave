@@ -1,0 +1,630 @@
+$maximum-blue: #1ed3ec; // keywords, properties
+$hot-pink: #ff52bf; // functions, attributes, highlighting
+$powder-blue: #acdfef; // strings
+$african-violet: #d887f5; // numbers, types
+$pearl-aqua: #3feabf; // operators, tags
+$old-lavender: #b4abbe; // comments
+$roman-silver: #b4a8c8; // punctuation
+$mustard: #ffe261; // built-ins, constants
+$white: #ffffff; // variables
+$raisin-black: #19151e; // background
+
+$text-color: #dcdbdd;
+
+meta {
+  -theme-display-name: "LaserWave (High Contrast)";
+  -theme-interface-style: dark;
+  -theme-accent-color: auto;
+}
+
+meta.window {
+  background-color: $raisin-black;
+  border-color: $raisin-black;
+}
+
+meta.titlebar {
+  color: $old-lavender;
+  border-color: #2e303e;
+  background-color: inherit;
+}
+
+meta.title.inactive {
+  background-color: #242029;
+}
+
+// The standard, un-highlighted state of a button
+meta.button {
+  color: $white;
+  background-color: $african-violet;
+}
+
+meta.button.disabled {
+  background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
+}
+
+// A button that is being held down by the user
+meta.button.highlighted {
+  background-color: darken($african-violet, 10%);
+}
+
+// For toggle buttons in the “on” state that are being held down by the user
+meta.button.highlighted.selected {
+  background-color: darken($african-violet, 10%);
+}
+
+// For toggle buttons in the “on” state
+meta.button.selected {
+  background-color: $african-violet;
+}
+
+meta.textfield {
+  background-color: lighten($raisin-black, 10%);
+  border-color: #2e3033;
+}
+
+meta.textfield.highlighted {
+  background-color: lighten($raisin-black, 20%);
+}
+
+meta.textfield.active {
+}
+
+meta.document {
+  background-color: $raisin-black;
+  border-color: $raisin-black;
+}
+
+meta.document.button {
+  color: $white;
+  background-color: $african-violet;
+}
+
+meta.document.button.disabled {
+  background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
+}
+
+meta.document.button.highlighted {
+  background-color: darken($african-violet, 10%);
+}
+
+meta.document.textfield {
+  background-color: lighten($raisin-black, 10%);
+  border-color: #2e3033;
+}
+
+meta.document.textfield.highlighted {
+  background-color: lighten($raisin-black, 20%);
+}
+
+meta.text {
+  color: $text-color;
+  background-color: $raisin-black;
+}
+
+meta.text.invisible {
+  color: hsla(210, 100%, 90%, 0.15);
+}
+
+meta.text.selected {
+  background-color: #ff52bf27;
+}
+
+// the background color for the current-line highlight
+meta.cursor {
+  background-color: lighten($raisin-black, 5%);
+}
+
+// indentation guides set to single color
+meta.indentguide {
+  border-color: $pearl-aqua;
+}
+
+meta.gutter {
+  color: $old-lavender;
+}
+
+meta.gutter.selected {
+  background-color: $raisin-black;
+  color: $white;
+}
+
+/* Syntax styles - https://docs.nova.app/extensions/themes */
+
+comment {
+  font-style: italic;
+  color: $old-lavender;
+}
+
+processing {
+  color: $white;
+}
+
+declaration {
+  color: $maximum-blue;
+}
+
+bracket {
+  color: $roman-silver;
+}
+
+operator {
+  color: $pearl-aqua;
+}
+
+invalid {
+  background-color: lighten(#ce698e, 10%);
+  color: #f8f8f1;
+}
+
+link {
+}
+
+/* Keywords */
+
+keyword,
+keyword.condition,
+keyword.statement {
+  color: $maximum-blue;
+}
+
+keyword.modifier,
+keyword.construct {
+  color: $african-violet;
+}
+
+keyword.self {
+  color: $mustard;
+}
+
+keyword.self.prefix {
+}
+
+/* Values */
+
+value,
+value.number,
+value.entity,
+value.symbol {
+  color: $african-violet;
+}
+
+value.boolean,
+value.null {
+  color: $mustard;
+}
+
+/* Identifiers */
+
+identifier,
+identifier.constant,
+identifier.global,
+identifier.variable {
+  color: $white;
+}
+
+identifier.constant.prefix,
+identifier.global.prefix,
+identifier.variable.prefix {
+}
+
+identifier.property {
+  color: $maximum-blue;
+}
+
+identifier.property.prefix {
+}
+
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: $hot-pink;
+}
+
+identifier.type {
+  color: $african-violet;
+}
+
+identifier.key {
+  color: $pearl-aqua;
+}
+
+identifier.argument {
+  color: $white;
+}
+
+identifier.argument.prefix {
+}
+
+identifier.core {
+  color: $mustard;
+}
+
+/* Types */
+
+definition.class.name,
+definition.type.name,
+definition.package.name,
+definition.enum.name,
+definition.union.name,
+definition.struct.name {
+}
+
+/* Members */
+definition.property.name {
+}
+
+definition.function.name,
+definition.method.name {
+}
+
+/* Strings */
+
+string,
+string.key {
+  color: $powder-blue;
+}
+
+string.delimeter {
+  color: darken($powder-blue, 5%);
+}
+
+string.escape {
+  color: ligthen($powder-blue, 5%);
+}
+
+string-template {
+  color: $old-lavender;
+}
+
+string-template.value {
+  color: $african-violet;
+}
+
+regex {
+}
+
+regex.escape {
+}
+
+cdata {
+  color: $mustard;
+}
+
+/* Types */
+
+/* Tags */
+
+tag.attribute.name {
+  color: $hot-pink;
+}
+
+tag.open,
+tag.close {
+  color: $pearl-aqua;
+}
+
+tag.attribute.value {
+  color: $powder-blue;
+}
+
+tag.attribute.operator {
+  color: $pearl-aqua;
+}
+
+tag.name {
+  color: $pearl-aqua;
+}
+
+/* Styles (CSS, SCSS, etc) */
+
+style.at {
+  color: $maximum-blue;
+  font-weight: bold;
+}
+
+style.attribute {
+  color: $white;
+}
+
+style.attribute.name {
+  color: $maximum-blue;
+}
+
+style.attribute.separator,
+style.selector.operator,
+style.value.color.hsl.bracket,
+style.value.color.hsla.bracket,
+style.value.function.bracket {
+  color: $old-lavender;
+}
+
+style.selector.pseudoelement,
+style.selector.identifier.name.class {
+  color: $hot-pink;
+}
+
+style.selector.simple.element.identifier.name {
+  color: $pearl-aqua;
+}
+
+style.selector.simple.unknown {
+  color: $white;
+}
+
+style.value.keyword {
+  color: $white;
+}
+
+style.value.number.unit {
+  color: darken($african-violet, 10%);
+}
+
+scss.style.selector.operator {
+  color: $maximum-blue;
+}
+
+/* Markdown */
+
+markup.heading {
+  color: $maximum-blue;
+}
+
+markup.line {
+  color: $hot-pink;
+}
+
+markup.bold {
+  color: $hot-pink;
+  font-weight: bold;
+}
+
+markup.italic {
+  color: $hot-pink;
+  font-style: italic;
+}
+
+markup.strikethrough {
+  color: $hot-pink;
+}
+
+markup.list.ordered,
+markup.list.unordered {
+  color: $white;
+}
+
+markup.list.item,
+markup.block.quote {
+  color: $old-lavender;
+}
+
+markup.block.code,
+markup.inline.code {
+  background-color: $raisin-black;
+  color: $roman-silver;
+}
+
+markup.link {
+  color: $african-violet;
+}
+
+/* JSON */
+
+json.comma,
+json.operator.colon {
+  color: $roman-silver;
+}
+
+json.key {
+  color: $maximum-blue;
+}
+
+/* YAML */
+
+yaml.string.unquoted {
+  color: $powder-blue;
+}
+
+yaml.operator.literal {
+  color: $mustard;
+}
+
+yaml.colon,
+yaml.operator.dash,
+toml.operator {
+  color: $old-lavender;
+}
+
+/* Shell Script */
+
+shell.definition.function {
+  color: $hot-pink;
+}
+
+shell.string-template {
+  color: $old-lavender;
+}
+
+shell.keyword.builtin-command {
+  color: $hot-pink;
+}
+
+shell.operator {
+  color: $pearl-aqua;
+}
+
+/* Makefile */
+
+makefile.identifier {
+  color: $hot-pink;
+}
+
+makefile.identifier.dependencies {
+  color: $old-lavender;
+}
+
+/* INI */
+
+ini.pair.identifier.key {
+  color: $maximum-blue;
+}
+
+ini.pair.operator.equals {
+  color: $roman-silver;
+}
+
+/* Terminal */
+
+terminal.black {
+  color: #000;
+}
+
+terminal.bright-black {
+  color: #000;
+}
+
+terminal.blue {
+  color: #40b4c4;
+}
+
+terminal.bright-blue {
+  color: $maximum-blue;
+}
+
+terminal.cyan {
+  color: #b4dce7;
+}
+
+terminal.bright-cyan {
+  color: $powder-blue;
+}
+
+terminal.green {
+  color: #74dfc4;
+}
+
+terminal.bright-green {
+  color: $pearl-aqua;
+}
+
+terminal.magenta {
+  color: #b381c5;
+}
+
+terminal.bright-magenta {
+  color: $african-violet;
+}
+
+terminal.red {
+  color: #eb64b9;
+}
+
+terminal.bright-red {
+  color: $hot-pink;
+}
+
+terminal.yellow {
+  color: $mustard;
+}
+
+terminal.bright-yellow {
+  color: $mustard;
+}
+
+terminal.white {
+  color: $white;
+}
+
+terminal.bright-white {
+  color: $white;
+}
+
+/* Javascript */
+
+javascript.colon,
+javascript.comma,
+javascript.dot,
+javascript.semicolon {
+  color: $roman-silver;
+}
+
+javascript.identifier.function,
+javascript.identifier.method {
+  color: $hot-pink;
+}
+
+javascript.identifier.core.global {
+  color: $mustard;
+}
+
+javascript.identifier.key.name,
+javascript.identifier.property {
+  color: $white;
+}
+
+javascript.keyword.construct {
+  color: $african-violet;
+}
+
+/* JSX */
+
+jsx.tag-content.bare-words {
+  color: $white;
+}
+
+jsx.value.variable {
+  color: $pearl-aqua;
+}
+
+jsx.value.variable.bracket {
+  color: $roman-silver;
+}
+
+/* Typescript */
+
+typescript.colon,
+typescript.comma,
+typescript.dot,
+typescript.semicolon {
+  color: $roman-silver;
+}
+
+typescript.identifier.key.name,
+typescript.identifier.property {
+  color: $white;
+}
+
+typescript.identifier.constant.name {
+  color: $hot-pink;
+}
+
+typescript.identifier.type.core {
+  color: $african-violet;
+}
+
+typescript.identifier.type {
+  color: $pearl-aqua;
+}
+
+typescript.keyword.variable.let {
+  color: $african-violet;
+}
+
+/* TSX */
+
+tsx.tag-content.bare-words {
+  color: $white;
+}
+
+tsx.value.variable {
+  color: $pearl-aqua;
+}
+
+tsx.value.variable.bracket {
+  color: $roman-silver;
+}
+
+/* Elm */
+
+elm.comma {
+  color: $roman-silver;
+}

@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\n\nmake run"
+    }
+  },
+  "identifier" : "9888FC87-10A8-4336-8D6E-37335B54FC88"
+}
