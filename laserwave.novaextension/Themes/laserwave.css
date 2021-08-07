@@ -400,6 +400,11 @@ typescript.keyword.variable.let {
   color: #d887f5;
 }
 
+/* TSX */
+tsx.value.variable.bracket {
+  color: #b4a8c8;
+}
+
 /* Elm */
 elm.comma {
   color: #b4a8c8;
