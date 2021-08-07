@@ -434,6 +434,7 @@ typescript.keyword.self {
 
 typescript.colon,
 typescript.comma,
+typescript.dot,
 typescript.semicolon {
   color: $roman-silver;
 }
@@ -457,10 +458,20 @@ typescript.identifier {
   &.core.global {
     color: $mustard;
   }
+
+  &.property {
+    color: $maximum-blue;
+
+    &.name {
+      color: $white;
+    }
+  }
 }
 
 typescript.keyword.modifier,
 typescript.keyword.construct,
+typescript.keyword.construct.const,
+typescript.keyword.construct.interface,
 typescript.keyword.variable.let {
   color: $african-violet;
 }

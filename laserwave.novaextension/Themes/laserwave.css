@@ -64,7 +64,7 @@ comment {
 }
 
 processing {
-  color: #000;
+  color: #ffffff;
 }
 
 declaration {
@@ -76,16 +76,12 @@ bracket {
 }
 
 operator {
-  color: #b4a8c8;
+  color: #3feabf;
 }
 
 invalid {
   background-color: #db8fab;
   color: #f8f8f1;
-}
-
-link {
-  color: blue;
 }
 
 /* Keywords */
@@ -100,7 +96,7 @@ value.number,
 value.null,
 value.symbol,
 value.entity {
-  color: #ffe261;
+  color: #d887f5;
 }
 
 /* Identifiers */
@@ -117,6 +113,14 @@ identifier.type {
   color: #d887f5;
 }
 
+identifier.key {
+  color: #3feabf;
+}
+
+identifier.core {
+  color: #ffe261;
+}
+
 /* Definitions */
 /* Strings */
 string {
@@ -124,23 +128,11 @@ string {
 }
 
 string-template {
-  color: red;
+  color: #b4abbe;
 }
 
 string-template.value {
-  color: blue;
-}
-
-regex {
-  color: red;
-}
-
-regex.escaped {
-  color: blue;
-}
-
-cdata {
-  color: red;
+  color: #d887f5;
 }
 
 /* Types */
@@ -166,10 +158,25 @@ tag.name {
   color: #3feabf;
 }
 
-/* Styles */
+/* Styles (CSS, SCSS, etc) */
 style.at {
   color: #1ed3ec;
   font-weight: bold;
+}
+
+style.selector.identifier.name.class {
+  color: #ff52bf;
+}
+
+style.operator {
+  color: #1ed3ec;
+}
+
+style.attribute.separator,
+style.selector.operator,
+style.value.color.hsl.bracket,
+style.value.function.bracket {
+  color: #b4abbe;
 }
 
 /* Markdown */
@@ -211,7 +218,8 @@ markup.link {
 }
 
 /* JSON */
-json.comma {
+json.comma,
+json.operator.colon {
   color: #b4a8c8;
 }
 
@@ -228,14 +236,10 @@ yaml.operator.literal {
   color: #ffe261;
 }
 
-/* SCSS */
-scss.style.operator {
-  color: #1ed3ec;
-}
-
-/* CSS */
-css.style.selector.identifier.name.class {
-  color: #ff52bf;
+yaml.colon,
+yaml.operator.dash,
+toml.operator {
+  color: #b4abbe;
 }
 
 /* Shell Script */
@@ -329,12 +333,72 @@ terminal.bright-white {
   color: #ffffff;
 }
 
+/* Javascript */
+javascript.keyword.construct {
+  color: #d887f5;
+}
+
+javascript.identifier.key.name {
+  color: #1ed3ec;
+}
+
+javascript.identifier.method {
+  color: #ff52bf;
+}
+
+javascript.identifier.name {
+  color: #ffffff;
+}
+
+javascript.semicolon,
+javascript.comma {
+  color: #b4a8c8;
+}
+
 /* Typescript */
 typescript.keyword.self {
   color: #ffe261;
 }
 
-typescript.operator {
+typescript.colon,
+typescript.comma,
+typescript.dot,
+typescript.semicolon {
+  color: #b4a8c8;
+}
+
+typescript.identifier {
+  color: #ffffff;
+}
+typescript.identifier.type {
+  color: #3feabf;
+}
+typescript.identifier.type.core {
+  color: #d887f5;
+}
+typescript.identifier.function, typescript.identifier.method {
+  color: #ff52bf;
+}
+typescript.identifier.core.global {
+  color: #ffe261;
+}
+typescript.identifier.property {
+  color: #1ed3ec;
+}
+typescript.identifier.property.name {
+  color: #ffffff;
+}
+
+typescript.keyword.modifier,
+typescript.keyword.construct,
+typescript.keyword.construct.const,
+typescript.keyword.construct.interface,
+typescript.keyword.variable.let {
+  color: #d887f5;
+}
+
+/* Elm */
+elm.comma {
   color: #b4a8c8;
 }
 
