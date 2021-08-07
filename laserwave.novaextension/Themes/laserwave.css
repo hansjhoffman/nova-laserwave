@@ -268,6 +268,15 @@ makefile.identifier.dependencies {
   color: #b4abbe;
 }
 
+/* INI */
+ini.pair.identifier.key {
+  color: #1ed3ec;
+}
+
+ini.pair.operator.equals {
+  color: #b4a8c8;
+}
+
 /* Terminal */
 terminal.black {
   color: #000;

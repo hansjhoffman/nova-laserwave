@@ -29,6 +29,7 @@ LaserWave also offers a high contrast alternative:
 - HTML
 - SCSS/CSS/SASS
 - SQL
+- INI
 
 ## Acknowledgements
 
