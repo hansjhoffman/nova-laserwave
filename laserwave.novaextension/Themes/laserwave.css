@@ -100,12 +100,20 @@ value.entity {
 }
 
 /* Identifiers */
+identifier,
+identifier.constant,
 identifier.global,
 identifier.variable {
   color: #ffffff;
 }
 
-identifier.function {
+identifier.property {
+  color: #1ed3ec;
+}
+
+identifier.decorator,
+identifier.function,
+identifier.method {
   color: #ff52bf;
 }
 
@@ -115,6 +123,10 @@ identifier.type {
 
 identifier.key {
   color: #3feabf;
+}
+
+identifier.argument {
+  color: #ffffff;
 }
 
 identifier.core {
@@ -378,10 +390,6 @@ jsx.value.variable.bracket {
 }
 
 /* Typescript */
-typescript.keyword.self {
-  color: #ffe261;
-}
-
 typescript.colon,
 typescript.comma,
 typescript.dot,
@@ -389,37 +397,31 @@ typescript.semicolon {
   color: #b4a8c8;
 }
 
-typescript.identifier {
-  color: #ffffff;
-}
-typescript.identifier.type {
-  color: #3feabf;
-}
-typescript.identifier.type.core {
-  color: #d887f5;
-}
-typescript.identifier.function, typescript.identifier.method {
-  color: #ff52bf;
-}
-typescript.identifier.core.global {
-  color: #ffe261;
-}
-typescript.identifier.constant.name {
-  color: #ff52bf;
-}
-typescript.identifier.property {
-  color: #1ed3ec;
-}
+typescript.identifier.key.name,
 typescript.identifier.property.name {
   color: #ffffff;
 }
 
+typescript.identifier.constant.name {
+  color: #ff52bf;
+}
+
+typescript.identifier.type.core {
+  color: #d887f5;
+}
+
+typescript.identifier.type {
+  color: #3feabf;
+}
+
 typescript.keyword.modifier,
 typescript.keyword.construct,
-typescript.keyword.construct.const,
-typescript.keyword.construct.interface,
 typescript.keyword.variable.let {
   color: #d887f5;
+}
+
+typescript.keyword.self {
+  color: #ffe261;
 }
 
 /* TSX */

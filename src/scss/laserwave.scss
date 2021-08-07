@@ -145,12 +145,28 @@ value.entity {
 
 /* Identifiers */
 
+identifier,
+identifier.constant,
 identifier.global,
 identifier.variable {
   color: $white;
 }
 
-identifier.function {
+identifier.constant.prefix,
+identifier.global.prefix,
+identifier.variable.prefix {
+}
+
+identifier.property {
+  color: $maximum-blue;
+}
+
+identifier.property.prefix {
+}
+
+identifier.decorator,
+identifier.function,
+identifier.method {
   color: $hot-pink;
 }
 
@@ -160,6 +176,13 @@ identifier.type {
 
 identifier.key {
   color: $pearl-aqua;
+}
+
+identifier.argument {
+  color: $white;
+}
+
+identifier.argument.prefix {
 }
 
 identifier.core {
@@ -455,10 +478,6 @@ jsx.value.variable.bracket {
 
 /* Typescript */
 
-typescript.keyword.self {
-  color: $mustard;
-}
-
 typescript.colon,
 typescript.comma,
 typescript.dot,
@@ -466,45 +485,31 @@ typescript.semicolon {
   color: $roman-silver;
 }
 
-typescript.identifier {
+typescript.identifier.key.name,
+typescript.identifier.property.name {
   color: $white;
+}
 
-  &.type {
-    color: $pearl-aqua;
+typescript.identifier.constant.name {
+  color: $hot-pink;
+}
 
-    &.core {
-      color: $african-violet;
-    }
-  }
+typescript.identifier.type.core {
+  color: $african-violet;
+}
 
-  &.function,
-  &.method {
-    color: $hot-pink;
-  }
-
-  &.core.global {
-    color: $mustard;
-  }
-
-  &.constant.name {
-    color: $hot-pink;
-  }
-
-  &.property {
-    color: $maximum-blue;
-
-    &.name {
-      color: $white;
-    }
-  }
+typescript.identifier.type {
+  color: $pearl-aqua;
 }
 
 typescript.keyword.modifier,
 typescript.keyword.construct,
-typescript.keyword.construct.const,
-typescript.keyword.construct.interface,
 typescript.keyword.variable.let {
   color: $african-violet;
+}
+
+typescript.keyword.self {
+  color: $mustard;
 }
 
 /* TSX */
