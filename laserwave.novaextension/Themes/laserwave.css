@@ -405,6 +405,14 @@ tsx.value.variable.bracket {
   color: #b4a8c8;
 }
 
+tsx.value.variable {
+  color: #3feabf;
+}
+
+tsx.tag-content.bare-words {
+  color: #ffffff;
+}
+
 /* Elm */
 elm.comma {
   color: #b4a8c8;
