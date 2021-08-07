@@ -420,26 +420,31 @@ typescript.semicolon {
   color: $roman-silver;
 }
 
-typescript.identifier.type {
-  color: $pearl-aqua;
+typescript.identifier {
+  color: $white;
+
+  &.type {
+    color: $pearl-aqua;
+
+    &.core {
+      color: $african-violet;
+    }
+  }
+
+  &.function,
+  &.method {
+    color: $hot-pink;
+  }
+
+  &.core.global {
+    color: $mustard;
+  }
 }
 
-typescript.identifier.type.core {
-  color: $african-violet;
-}
-
-typescript.identifier.method {
-  color: $hot-pink;
-}
-
+typescript.keyword.modifier,
 typescript.keyword.construct,
 typescript.keyword.variable.let {
   color: $african-violet;
-}
-
-typescript.identifier.constant,
-typescript.identifier.key.name {
-  color: $white;
 }
 
 /* Elm */
