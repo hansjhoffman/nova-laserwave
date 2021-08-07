@@ -414,13 +414,28 @@ typescript.keyword.self {
   color: $mustard;
 }
 
-typescript.operator {
+typescript.colon,
+typescript.comma,
+typescript.semicolon {
   color: $roman-silver;
 }
 
-// typescript.definition.interface {
-//   color: $african-violet;
-// }
+typescript.identifier.type {
+  color: $pearl-aqua;
+}
+
+typescript.identifier.type.core {
+  color: $african-violet;
+}
+
+typescript.identifier.method {
+  color: $hot-pink;
+}
+
+typescript.keyword.construct,
+typescript.keyword.variable.let {
+  color: $african-violet;
+}
 
 /* Elm */
 
