@@ -459,6 +459,10 @@ typescript.identifier {
     color: $mustard;
   }
 
+  &.constant.name {
+    color: $hot-pink;
+  }
+
   &.property {
     color: $maximum-blue;
 

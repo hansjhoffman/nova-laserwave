@@ -382,6 +382,9 @@ typescript.identifier.function, typescript.identifier.method {
 typescript.identifier.core.global {
   color: #ffe261;
 }
+typescript.identifier.constant.name {
+  color: #ff52bf;
+}
 typescript.identifier.property {
   color: #1ed3ec;
 }
