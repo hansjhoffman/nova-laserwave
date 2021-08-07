@@ -13,86 +13,86 @@ meta {
   -theme-display-name: "LaserWave (High Contrast)";
   -theme-interface-style: dark;
   -theme-accent-color: auto;
+}
 
-  &.window {
-    background-color: $raisin-black;
-    border-color: $raisin-black;
-  }
+meta.window {
+  background-color: $raisin-black;
+  border-color: $raisin-black;
+}
 
-  &.titlebar {
-    color: $old-lavender;
-    border-color: #2e303e;
-    background-color: inherit;
+meta.titlebar {
+  color: $old-lavender;
+  border-color: #2e303e;
+  background-color: inherit;
+}
 
-    &.inactive {
-      background-color: #242029;
-    }
-  }
+meta.title.inactive {
+  background-color: #242029;
+}
 
-  // The standard, un-highlighted state of a button
-  &.button {
-    color: $white;
-    background-color: $african-violet;
+// The standard, un-highlighted state of a button
+meta.button {
+  color: $white;
+  background-color: $african-violet;
+}
 
-    &.disabled {
-    }
+meta.button.disabled {
+}
 
-    // A button that is being held down by the user
-    &.highlighted {
-      background-color: darken($african-violet, 10%);
+// A button that is being held down by the user
+meta.button.highlighted {
+  background-color: darken($african-violet, 10%);
+}
 
-      // For toggle buttons in the “on” state that are being held down by the user
-      &.selected {
-        background-color: darken($african-violet, 10%);
-      }
-    }
+// For toggle buttons in the “on” state that are being held down by the user
+meta.button.highlighted.selected {
+  background-color: darken($african-violet, 10%);
+}
 
-    // For toggle buttons in the “on” state
-    &.selected {
-      background-color: $african-violet;
-    }
-  }
+// For toggle buttons in the “on” state
+meta.button.selected {
+  background-color: $african-violet;
+}
 
-  &.textfield {
-    background-color: lighten($raisin-black, 10%);
-    border-color: #2e3033;
+meta.textfield {
+  background-color: lighten($raisin-black, 10%);
+  border-color: #2e3033;
+}
 
-    &.active {
-    }
-  }
+meta.textfield.active {
+}
 
-  &.document {
-    background-color: $raisin-black;
-    border-color: $raisin-black;
-  }
+meta.document {
+  background-color: $raisin-black;
+  border-color: $raisin-black;
+}
 
-  &.text {
-    color: #dcdbdd;
-    background-color: $raisin-black;
+meta.text {
+  color: #dcdbdd;
+  background-color: $raisin-black;
+}
 
-    &.selected {
-      background-color: #ff52bf27;
-    }
-  }
+meta.text.selected {
+  background-color: #ff52bf27;
+}
 
-  // the background color for the current-line highlight
-  &.cursor {
-    background-color: lighten($raisin-black, 5%);
-  }
+// the background color for the current-line highlight
+meta.cursor {
+  background-color: lighten($raisin-black, 5%);
+}
 
-  // indentation guides set to single color
-  &.indentguide {
-    border-color: $pearl-aqua;
-  }
+// indentation guides set to single color
+meta.indentguide {
+  border-color: $pearl-aqua;
+}
 
-  &.gutter {
-    color: $old-lavender;
+meta.gutter {
+  color: $old-lavender;
+}
 
-    &.selected {
-      background-color: $raisin-black; // double click a line
-      color: $white;
-    }
-  }
+meta.gutter.selected {
+  background-color: $raisin-black;
+  color: $white;
 }
 
 /* Syntax styles - https://docs.nova.app/extensions/themes */
