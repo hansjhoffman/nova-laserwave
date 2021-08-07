@@ -408,6 +408,28 @@ terminal.bright-white {
   color: $white;
 }
 
+/* Javascript */
+javascript.keyword.construct {
+  color: $african-violet;
+}
+
+javascript.identifier.key.name {
+  color: $maximum-blue;
+}
+
+javascript.identifier.method {
+  color: $hot-pink;
+}
+
+javascript.identifier.name {
+  color: $white;
+}
+
+javascript.semicolon,
+javascript.comma {
+  color: $roman-silver;
+}
+
 /* Typescript */
 
 typescript.keyword.self {
