@@ -437,6 +437,11 @@ typescript.keyword.variable.let {
   color: $african-violet;
 }
 
+typescript.identifier.constant,
+typescript.identifier.key.name {
+  color: $white;
+}
+
 /* Elm */
 
 elm.comma {
