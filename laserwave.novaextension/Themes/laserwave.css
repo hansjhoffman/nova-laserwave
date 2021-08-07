@@ -212,6 +212,7 @@ style.attribute.name {
 }
 
 style.attribute.separator,
+style.selector.operator,
 style.value.function.bracket {
   color: #b4abbe;
 }
@@ -235,6 +236,10 @@ style.value.keyword {
 
 style.value.number.unit {
   color: #c958f1;
+}
+
+scss.style.selector.operator {
+  color: #1ed3ec;
 }
 
 /* Markdown */

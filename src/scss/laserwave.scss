@@ -285,6 +285,7 @@ style.attribute.name {
 }
 
 style.attribute.separator,
+style.selector.operator,
 style.value.function.bracket {
   color: $old-lavender;
 }
@@ -308,6 +309,10 @@ style.value.keyword {
 
 style.value.number.unit {
   color: darken($african-violet, 10%);
+}
+
+scss.style.selector.operator {
+  color: $maximum-blue;
 }
 
 /* Markdown */
