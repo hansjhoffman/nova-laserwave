@@ -22,10 +22,13 @@ LaserWave also offers a high contrast alternative:
 
 - Markdown
 - JSON
+- Yaml
+- Toml
 - Makefile
 - Shell
 - HTML
 - SCSS/CSS/SASS
+- SQL
 
 ## Acknowledgements
 

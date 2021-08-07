@@ -103,7 +103,7 @@ comment {
 }
 
 processing {
-  color: #000;
+  color: $white;
 }
 
 declaration {
@@ -157,6 +157,10 @@ identifier.function {
 
 identifier.type {
   color: $african-violet;
+}
+
+identifier.key {
+  color: $pearl-aqua;
 }
 
 identifier.core {
@@ -301,6 +305,12 @@ yaml.string.unquoted {
 
 yaml.operator.literal {
   color: $mustard;
+}
+
+yaml.colon,
+yaml.operator.dash,
+toml.operator {
+  color: $old-lavender;
 }
 
 /* Shell Script */
