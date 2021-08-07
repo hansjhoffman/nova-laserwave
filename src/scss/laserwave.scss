@@ -512,21 +512,18 @@ javascript.semicolon {
   color: $roman-silver;
 }
 
-javascript.identifier {
-  color: $white;
-
-  &.function,
-  &.method {
-    color: $hot-pink;
-  }
-
-  &.core.global {
-    color: $mustard;
-  }
+javascript.identifier.function,
+javascript.identifier.method {
+  color: $hot-pink;
 }
 
-javascript.identifier.key.name {
-  color: $maximum-blue;
+javascript.identifier.core.global {
+  color: $mustard;
+}
+
+javascript.identifier.key.name,
+javascript.identifier.property {
+  color: $white;
 }
 
 javascript.keyword.construct {
