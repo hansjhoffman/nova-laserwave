@@ -1,7 +1,7 @@
 {
   "name": "nova-laserwave",
-  "version": "0.1.0",
-  "description": "A port of the VSCode Horizon theme.",
+  "version": "0.2.0",
+  "description": "A clean 80's synthwave / outrun inspired theme for Nova.",
   "author": "Hans Hoffman",
   "license": "MIT",
   "repository": "git@github.com:hansjhoffman/nova-laserwave.git",
