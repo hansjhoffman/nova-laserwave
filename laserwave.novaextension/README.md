@@ -1,10 +1,14 @@
 <p align="center" style="margin-bottom: 50px">
   <img alt="LaserWave logo" src="https://user-images.githubusercontent.com/9221098/128617168-4f12d6ee-9469-49e5-b39f-b4e2dc1e4c99.png">
 </p>
+<p align="center">
+  <img alt="build status badge" src="https://github.com/hansjhoffman/nova-laserwave/actions/workflows/main.yml/badge.svg?branch=master" />
+  <img alt="code style prettier badge" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat" />
+  <img alt="mit license badge" src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  <img alt="maintained badge" src="https://img.shields.io/badge/Maintained%3F-yes-blue.svg" />
+</p>
 
 ---
-
-# LaserWave
 
 A clean 80's synthwave / outrun inspired theme for Nova.
 
@@ -30,6 +34,7 @@ A clean 80's synthwave / outrun inspired theme for Nova.
 - SCSS/CSS/SASS
 - SQL
 - INI
+- Elm
 
 ## Acknowledgements
 
