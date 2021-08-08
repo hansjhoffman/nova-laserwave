@@ -1,29 +1,16 @@
-$maximum-blue: #40b4c4; // keywords, properties
-$hot-pink: #eb64b9; // functions, attributes, highlighting
-$powder-blue: #b4dce7; // strings
-$african-violet: #b381c5; // numbers, types
-$pearl-aqua: #74dfc4; // operators, tags
-$old-lavender: #91889b; // comments
-$roman-silver: #7b6995; // punctuation
-$mustard: #ffe261; // built-ins, constants
-$white: #ffffff; // variables
-$raisin-black: #27212e; // background
-
-$text-color: #dcdbdd;
-
 meta {
-  -theme-display-name: "LaserWave";
+  -theme-display-name: "LaserWave (High Contrast)";
   -theme-interface-style: dark;
   -theme-accent-color: auto;
 }
 
 meta.window {
-  background-color: $raisin-black;
-  border-color: $raisin-black;
+  background-color: #19151e;
+  border-color: #19151e;
 }
 
 meta.titlebar {
-  color: $old-lavender;
+  color: #b4abbe;
   border-color: #2e303e;
   background-color: inherit;
 }
@@ -32,302 +19,246 @@ meta.title.inactive {
   background-color: #242029;
 }
 
-// The standard, un-highlighted state of a button
 meta.button {
-  color: $white;
-  background-color: $african-violet;
+  color: #ffffff;
+  background-color: #d887f5;
 }
 
 meta.button.disabled {
-  background: $roman-silver;
+  background: #7e6aa0;
 }
 
-// A button that is being held down by the user
 meta.button.highlighted {
-  background-color: darken($african-violet, 10%);
+  background-color: #c958f1;
 }
 
-// For toggle buttons in the “on” state that are being held down by the user
 meta.button.highlighted.selected {
-  background-color: darken($african-violet, 10%);
+  background-color: #c958f1;
 }
 
-// For toggle buttons in the “on” state
 meta.button.selected {
-  background-color: $african-violet;
+  background-color: #d887f5;
 }
 
 meta.textfield {
-  background-color: lighten($raisin-black, 10%);
+  background-color: #322a3c;
   border-color: #2e3033;
 }
 
 meta.textfield.highlighted {
-  background-color: lighten($raisin-black, 20%);
-}
-
-meta.textfield.active {
+  background-color: #4b3f5a;
 }
 
 meta.document {
-  background-color: $raisin-black;
-  border-color: $raisin-black;
+  background-color: #19151e;
+  border-color: #19151e;
 }
 
 meta.document.button {
-  color: $white;
-  background-color: $african-violet;
+  color: #ffffff;
+  background-color: #d887f5;
 }
 
 meta.document.button.disabled {
-  background: $roman-silver;
+  background: #7e6aa0;
 }
 
 meta.document.button.highlighted {
-  background-color: darken($african-violet, 10%);
+  background-color: #c958f1;
 }
 
 meta.document.textfield {
-  background-color: lighten($raisin-black, 10%);
+  background-color: #322a3c;
   border-color: #2e3033;
 }
 
 meta.document.textfield.highlighted {
-  background-color: lighten($raisin-black, 20%);
+  background-color: #4b3f5a;
 }
 
 meta.text {
-  color: $text-color;
-  background-color: $raisin-black;
+  color: #dcdbdd;
+  background-color: #19151e;
 }
 
 meta.text.invisible {
-  color: hsla(210, 100%, 90%, 0.15);
+  color: rgba(204, 230, 255, 0.15);
 }
 
 meta.text.selected {
   background-color: #ff52bf27;
 }
 
-// the background color for the current-line highlight
 meta.cursor {
-  background-color: lighten($raisin-black, 5%);
+  background-color: #26202d;
 }
 
-// indentation guides set to single color
 meta.indentguide {
-  border-color: $pearl-aqua;
+  border-color: #3feabf;
 }
 
 meta.gutter {
-  color: $old-lavender;
+  color: #b4abbe;
 }
 
 meta.gutter.selected {
-  background-color: $raisin-black;
-  color: $white;
+  background-color: #19151e;
+  color: #ffffff;
 }
 
 /* Syntax styles - https://docs.nova.app/extensions/themes */
-
 comment {
   font-style: italic;
-  color: $old-lavender;
+  color: #b4abbe;
 }
 
 processing {
-  color: $white;
+  color: #ffffff;
 }
 
 declaration {
-  color: $maximum-blue;
+  color: #1ed3ec;
 }
 
 bracket {
-  color: $roman-silver;
+  color: #b4a8c8;
 }
 
 operator {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 invalid {
-  background-color: lighten(#ce698e, 10%);
+  background-color: #db8fab;
   color: #f8f8f1;
 }
 
-link {
-}
-
 /* Keywords */
-
 keyword,
 keyword.condition,
 keyword.statement {
-  color: $maximum-blue;
+  color: #1ed3ec;
 }
 
 keyword.modifier,
 keyword.construct {
-  color: $african-violet;
+  color: #d887f5;
 }
 
 keyword.self {
-  color: $mustard;
-}
-
-keyword.self.prefix {
+  color: #ffe261;
 }
 
 /* Values */
-
 value,
 value.number,
 value.entity,
 value.symbol {
-  color: $african-violet;
+  color: #d887f5;
 }
 
 value.boolean,
 value.null {
-  color: $mustard;
+  color: #ffe261;
 }
 
 /* Identifiers */
-
 identifier,
 identifier.constant,
 identifier.global,
 identifier.variable {
-  color: $white;
-}
-
-identifier.constant.prefix,
-identifier.global.prefix,
-identifier.variable.prefix {
+  color: #ffffff;
 }
 
 identifier.property {
-  color: $maximum-blue;
-}
-
-identifier.property.prefix {
+  color: #1ed3ec;
 }
 
 identifier.decorator,
 identifier.function,
 identifier.method {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 identifier.type {
-  color: $african-violet;
+  color: #d887f5;
 }
 
 identifier.key {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 identifier.argument {
-  color: $white;
-}
-
-identifier.argument.prefix {
+  color: #ffffff;
 }
 
 identifier.core {
-  color: $mustard;
+  color: #ffe261;
 }
 
 /* Types */
-
-definition.class.name,
-definition.type.name,
-definition.package.name,
-definition.enum.name,
-definition.union.name,
-definition.struct.name {
-}
-
 /* Members */
-definition.property.name {
-}
-
-definition.function.name,
-definition.method.name {
-}
-
 /* Strings */
-
 string,
 string.key {
-  color: $powder-blue;
+  color: #acdfef;
 }
 
 string.delimeter {
-  color: darken($powder-blue, 5%);
+  color: #97d7eb;
 }
 
 string.escape {
-  color: ligthen($powder-blue, 5%);
+  color: ligthen(#acdfef, 5%);
 }
 
 string-template {
-  color: $old-lavender;
+  color: #b4abbe;
 }
 
 string-template.value {
-  color: $african-violet;
-}
-
-regex {
-}
-
-regex.escape {
+  color: #d887f5;
 }
 
 cdata {
-  color: $mustard;
+  color: #ffe261;
 }
 
 /* Types */
-
 /* Tags */
-
 tag.attribute.name {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 tag.open,
 tag.close {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 tag.attribute.value {
-  color: $powder-blue;
+  color: #acdfef;
 }
 
 tag.attribute.operator {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 tag.name {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 /* Styles (CSS, SCSS, etc) */
-
 style.at {
-  color: $maximum-blue;
+  color: #1ed3ec;
   font-weight: bold;
 }
 
 style.attribute {
-  color: $white;
+  color: #ffffff;
 }
 
 style.attribute.name {
-  color: $maximum-blue;
+  color: #1ed3ec;
 }
 
 style.attribute.separator,
@@ -335,145 +266,138 @@ style.selector.operator,
 style.value.color.hsl.bracket,
 style.value.color.hsla.bracket,
 style.value.function.bracket {
-  color: $old-lavender;
+  color: #b4abbe;
 }
 
 style.selector.pseudoelement,
 style.selector.identifier.name.class {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 style.selector.simple.element.identifier.name {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 style.selector.simple.unknown {
-  color: $white;
+  color: #ffffff;
 }
 
 style.value.keyword {
-  color: $white;
+  color: #ffffff;
 }
 
 style.value.number.unit {
-  color: darken($african-violet, 10%);
+  color: #c958f1;
 }
 
 scss.style.selector.operator {
-  color: $maximum-blue;
+  color: #1ed3ec;
 }
 
 /* Markdown */
-
 markup.heading {
-  color: $maximum-blue;
+  color: #1ed3ec;
 }
 
 markup.line {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 markup.bold {
-  color: $hot-pink;
+  color: #ff52bf;
   font-weight: bold;
 }
 
 markup.italic {
-  color: $hot-pink;
+  color: #ff52bf;
   font-style: italic;
 }
 
 markup.strikethrough {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 markup.list.ordered,
 markup.list.unordered {
-  color: $white;
+  color: #ffffff;
 }
 
 markup.list.item,
 markup.block.quote {
-  color: $old-lavender;
+  color: #b4abbe;
 }
 
 markup.block.code,
 markup.inline.code {
-  background-color: $raisin-black;
-  color: $roman-silver;
+  background-color: #19151e;
+  color: #b4a8c8;
 }
 
 markup.link {
-  color: $african-violet;
+  color: #d887f5;
 }
 
 /* JSON */
-
 json.comma,
 json.operator.colon {
-  color: $roman-silver;
+  color: #b4a8c8;
 }
 
 json.key {
-  color: $maximum-blue;
+  color: #1ed3ec;
 }
 
 /* YAML */
-
 yaml.string.unquoted {
-  color: $powder-blue;
+  color: #acdfef;
 }
 
 yaml.operator.literal {
-  color: $mustard;
+  color: #ffe261;
 }
 
 yaml.colon,
 yaml.operator.dash,
 toml.operator {
-  color: $old-lavender;
+  color: #b4abbe;
 }
 
 /* Shell Script */
-
 shell.definition.function {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 shell.string-template {
-  color: $old-lavender;
+  color: #b4abbe;
 }
 
 shell.keyword.builtin-command {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 shell.operator {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 /* Makefile */
-
 makefile.identifier {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 makefile.identifier.dependencies {
-  color: $old-lavender;
+  color: #b4abbe;
 }
 
 /* INI */
-
 ini.pair.identifier.key {
-  color: $maximum-blue;
+  color: #1ed3ec;
 }
 
 ini.pair.operator.equals {
-  color: $roman-silver;
+  color: #b4a8c8;
 }
 
 /* Terminal */
-
 terminal.black {
   color: #000;
 }
@@ -487,7 +411,7 @@ terminal.blue {
 }
 
 terminal.bright-blue {
-  color: $maximum-blue;
+  color: #1ed3ec;
 }
 
 terminal.cyan {
@@ -495,7 +419,7 @@ terminal.cyan {
 }
 
 terminal.bright-cyan {
-  color: $powder-blue;
+  color: #acdfef;
 }
 
 terminal.green {
@@ -503,7 +427,7 @@ terminal.green {
 }
 
 terminal.bright-green {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 terminal.magenta {
@@ -511,7 +435,7 @@ terminal.magenta {
 }
 
 terminal.bright-magenta {
-  color: $african-violet;
+  color: #d887f5;
 }
 
 terminal.red {
@@ -519,112 +443,109 @@ terminal.red {
 }
 
 terminal.bright-red {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 terminal.yellow {
-  color: $mustard;
+  color: #ffe261;
 }
 
 terminal.bright-yellow {
-  color: $mustard;
+  color: #ffe261;
 }
 
 terminal.white {
-  color: $white;
+  color: #ffffff;
 }
 
 terminal.bright-white {
-  color: $white;
+  color: #ffffff;
 }
 
 /* Javascript */
-
 javascript.colon,
 javascript.comma,
 javascript.dot,
 javascript.semicolon {
-  color: $roman-silver;
+  color: #b4a8c8;
 }
 
 javascript.identifier.function,
 javascript.identifier.method {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 javascript.identifier.core.global {
-  color: $mustard;
+  color: #ffe261;
 }
 
 javascript.identifier.key.name,
 javascript.identifier.property {
-  color: $white;
+  color: #ffffff;
 }
 
 javascript.keyword.construct {
-  color: $african-violet;
+  color: #d887f5;
 }
 
 /* JSX */
-
 jsx.tag-content.bare-words {
-  color: $white;
+  color: #ffffff;
 }
 
 jsx.value.variable {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 jsx.value.variable.bracket {
-  color: $roman-silver;
+  color: #b4a8c8;
 }
 
 /* Typescript */
-
 typescript.colon,
 typescript.comma,
 typescript.dot,
 typescript.semicolon {
-  color: $roman-silver;
+  color: #b4a8c8;
 }
 
 typescript.identifier.key.name,
 typescript.identifier.property {
-  color: $white;
+  color: #ffffff;
 }
 
 typescript.identifier.constant.name {
-  color: $hot-pink;
+  color: #ff52bf;
 }
 
 typescript.identifier.type.core {
-  color: $african-violet;
+  color: #d887f5;
 }
 
 typescript.identifier.type {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 typescript.keyword.variable.let {
-  color: $african-violet;
+  color: #d887f5;
 }
 
 /* TSX */
-
 tsx.tag-content.bare-words {
-  color: $white;
+  color: #ffffff;
 }
 
 tsx.value.variable {
-  color: $pearl-aqua;
+  color: #3feabf;
 }
 
 tsx.value.variable.bracket {
-  color: $roman-silver;
+  color: #b4a8c8;
 }
 
 /* Elm */
-
 elm.comma {
-  color: $roman-silver;
+  color: #b4a8c8;
 }
+
+/*# sourceMappingURL=laserwave-high-contrast.css.map */

@@ -1,22 +1,20 @@
 <p align="center" style="margin-bottom: 50px">
-  <img alt="LaserWave logo" src="Images/extension/laserwave-logo.png">
+  <img alt="LaserWave logo" src="https://user-images.githubusercontent.com/9221098/128617168-4f12d6ee-9469-49e5-b39f-b4e2dc1e4c99.png">
 </p>
 
-<!--
-🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
--->
+---
 
-**LaserWave** provides a fun, metro palette:
+# LaserWave
 
-![](https://nova.app/images/en/dark/editor.png)
+A clean 80's synthwave / outrun inspired theme for Nova.
 
-<!--
-🎈 If your extension provides multiple variations, don't forget to show those too!
--->
+### LaserWave
 
-LaserWave also offers a high contrast alternative:
+![LaserWave theme](https://user-images.githubusercontent.com/9221098/128617304-4e84043f-ec9b-4faf-bd6c-ecd41b543bc0.png)
 
-![](https://nova.app/images/en/light/editor.png)
+### LaserWave High Contrast (WCAG AAA)
+
+![LaserWave High Contrast](https://user-images.githubusercontent.com/9221098/128617311-4072de18-15b5-457f-9c01-95dba0992804.png)
 
 ## Currently supports:
 

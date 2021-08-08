@@ -1,18 +1,18 @@
-$maximum-blue: #40b4c4; // keywords, properties
-$hot-pink: #eb64b9; // functions, attributes, highlighting
-$powder-blue: #b4dce7; // strings
-$african-violet: #b381c5; // numbers, types
-$pearl-aqua: #74dfc4; // operators, tags
-$old-lavender: #91889b; // comments
-$roman-silver: #7b6995; // punctuation
+$maximum-blue: #1ed3ec; // keywords, properties
+$hot-pink: #ff52bf; // functions, attributes, highlighting
+$powder-blue: #acdfef; // strings
+$african-violet: #d887f5; // numbers, types
+$pearl-aqua: #3feabf; // operators, tags
+$old-lavender: #b4abbe; // comments
+$roman-silver: #b4a8c8; // punctuation
 $mustard: #ffe261; // built-ins, constants
 $white: #ffffff; // variables
-$raisin-black: #27212e; // background
+$raisin-black: #19151e; // background
 
 $text-color: #dcdbdd;
 
 meta {
-  -theme-display-name: "LaserWave";
+  -theme-display-name: "LaserWave (High Contrast)";
   -theme-interface-style: dark;
   -theme-accent-color: auto;
 }
@@ -39,7 +39,7 @@ meta.button {
 }
 
 meta.button.disabled {
-  background: $roman-silver;
+  background: darken($roman-silver, 20%);
 }
 
 // A button that is being held down by the user
@@ -80,7 +80,7 @@ meta.document.button {
 }
 
 meta.document.button.disabled {
-  background: $roman-silver;
+  background: darken($roman-silver, 20%);
 }
 
 meta.document.button.highlighted {

@@ -1,16 +1,16 @@
 meta {
-  -theme-display-name: "LaserWave (High Contrast)";
+  -theme-display-name: "LaserWave";
   -theme-interface-style: dark;
   -theme-accent-color: auto;
 }
 
 meta.window {
-  background-color: #19151e;
-  border-color: #19151e;
+  background-color: #27212e;
+  border-color: #27212e;
 }
 
 meta.titlebar {
-  color: #b4abbe;
+  color: #91889b;
   border-color: #2e303e;
   background-color: inherit;
 }
@@ -21,64 +21,64 @@ meta.title.inactive {
 
 meta.button {
   color: #ffffff;
-  background-color: #d887f5;
+  background-color: #b381c5;
 }
 
 meta.button.disabled {
-  background: linear-gradient(rgba(61, 63, 67, 0.3), rgba(51, 53, 56, 0.3));
+  background: #7b6995;
 }
 
 meta.button.highlighted {
-  background-color: #c958f1;
+  background-color: #9e5eb5;
 }
 
 meta.button.highlighted.selected {
-  background-color: #c958f1;
+  background-color: #9e5eb5;
 }
 
 meta.button.selected {
-  background-color: #d887f5;
+  background-color: #b381c5;
 }
 
 meta.textfield {
-  background-color: #322a3c;
+  background-color: #40364c;
   border-color: #2e3033;
 }
 
 meta.textfield.highlighted {
-  background-color: #4b3f5a;
+  background-color: #594c69;
 }
 
 meta.document {
-  background-color: #19151e;
-  border-color: #19151e;
+  background-color: #27212e;
+  border-color: #27212e;
 }
 
 meta.document.button {
   color: #ffffff;
-  background-color: #d887f5;
+  background-color: #b381c5;
 }
 
 meta.document.button.disabled {
-  background: linear-gradient(rgba(61, 63, 67, 0.3), rgba(51, 53, 56, 0.3));
+  background: #7b6995;
 }
 
 meta.document.button.highlighted {
-  background-color: #c958f1;
+  background-color: #9e5eb5;
 }
 
 meta.document.textfield {
-  background-color: #322a3c;
+  background-color: #40364c;
   border-color: #2e3033;
 }
 
 meta.document.textfield.highlighted {
-  background-color: #4b3f5a;
+  background-color: #594c69;
 }
 
 meta.text {
   color: #dcdbdd;
-  background-color: #19151e;
+  background-color: #27212e;
 }
 
 meta.text.invisible {
@@ -90,26 +90,26 @@ meta.text.selected {
 }
 
 meta.cursor {
-  background-color: #26202d;
+  background-color: #342c3d;
 }
 
 meta.indentguide {
-  border-color: #3feabf;
+  border-color: #74dfc4;
 }
 
 meta.gutter {
-  color: #b4abbe;
+  color: #91889b;
 }
 
 meta.gutter.selected {
-  background-color: #19151e;
+  background-color: #27212e;
   color: #ffffff;
 }
 
 /* Syntax styles - https://docs.nova.app/extensions/themes */
 comment {
   font-style: italic;
-  color: #b4abbe;
+  color: #91889b;
 }
 
 processing {
@@ -117,15 +117,15 @@ processing {
 }
 
 declaration {
-  color: #1ed3ec;
+  color: #40b4c4;
 }
 
 bracket {
-  color: #b4a8c8;
+  color: #7b6995;
 }
 
 operator {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 invalid {
@@ -137,12 +137,12 @@ invalid {
 keyword,
 keyword.condition,
 keyword.statement {
-  color: #1ed3ec;
+  color: #40b4c4;
 }
 
 keyword.modifier,
 keyword.construct {
-  color: #d887f5;
+  color: #b381c5;
 }
 
 keyword.self {
@@ -154,7 +154,7 @@ value,
 value.number,
 value.entity,
 value.symbol {
-  color: #d887f5;
+  color: #b381c5;
 }
 
 value.boolean,
@@ -171,21 +171,21 @@ identifier.variable {
 }
 
 identifier.property {
-  color: #1ed3ec;
+  color: #40b4c4;
 }
 
 identifier.decorator,
 identifier.function,
 identifier.method {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 identifier.type {
-  color: #d887f5;
+  color: #b381c5;
 }
 
 identifier.key {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 identifier.argument {
@@ -201,23 +201,23 @@ identifier.core {
 /* Strings */
 string,
 string.key {
-  color: #acdfef;
+  color: #b4dce7;
 }
 
 string.delimeter {
-  color: #97d7eb;
+  color: #a1d3e1;
 }
 
 string.escape {
-  color: ligthen(#acdfef, 5%);
+  color: ligthen(#b4dce7, 5%);
 }
 
 string-template {
-  color: #b4abbe;
+  color: #91889b;
 }
 
 string-template.value {
-  color: #d887f5;
+  color: #b381c5;
 }
 
 cdata {
@@ -227,29 +227,29 @@ cdata {
 /* Types */
 /* Tags */
 tag.attribute.name {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 tag.open,
 tag.close {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 tag.attribute.value {
-  color: #acdfef;
+  color: #b4dce7;
 }
 
 tag.attribute.operator {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 tag.name {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 /* Styles (CSS, SCSS, etc) */
 style.at {
-  color: #1ed3ec;
+  color: #40b4c4;
   font-weight: bold;
 }
 
@@ -258,7 +258,7 @@ style.attribute {
 }
 
 style.attribute.name {
-  color: #1ed3ec;
+  color: #40b4c4;
 }
 
 style.attribute.separator,
@@ -266,16 +266,16 @@ style.selector.operator,
 style.value.color.hsl.bracket,
 style.value.color.hsla.bracket,
 style.value.function.bracket {
-  color: #b4abbe;
+  color: #91889b;
 }
 
 style.selector.pseudoelement,
 style.selector.identifier.name.class {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 style.selector.simple.element.identifier.name {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 style.selector.simple.unknown {
@@ -287,34 +287,34 @@ style.value.keyword {
 }
 
 style.value.number.unit {
-  color: #c958f1;
+  color: #9e5eb5;
 }
 
 scss.style.selector.operator {
-  color: #1ed3ec;
+  color: #40b4c4;
 }
 
 /* Markdown */
 markup.heading {
-  color: #1ed3ec;
+  color: #40b4c4;
 }
 
 markup.line {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 markup.bold {
-  color: #ff52bf;
+  color: #eb64b9;
   font-weight: bold;
 }
 
 markup.italic {
-  color: #ff52bf;
+  color: #eb64b9;
   font-style: italic;
 }
 
 markup.strikethrough {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 markup.list.ordered,
@@ -324,32 +324,32 @@ markup.list.unordered {
 
 markup.list.item,
 markup.block.quote {
-  color: #b4abbe;
+  color: #91889b;
 }
 
 markup.block.code,
 markup.inline.code {
-  background-color: #19151e;
-  color: #b4a8c8;
+  background-color: #27212e;
+  color: #7b6995;
 }
 
 markup.link {
-  color: #d887f5;
+  color: #b381c5;
 }
 
 /* JSON */
 json.comma,
 json.operator.colon {
-  color: #b4a8c8;
+  color: #7b6995;
 }
 
 json.key {
-  color: #1ed3ec;
+  color: #40b4c4;
 }
 
 /* YAML */
 yaml.string.unquoted {
-  color: #acdfef;
+  color: #b4dce7;
 }
 
 yaml.operator.literal {
@@ -359,42 +359,42 @@ yaml.operator.literal {
 yaml.colon,
 yaml.operator.dash,
 toml.operator {
-  color: #b4abbe;
+  color: #91889b;
 }
 
 /* Shell Script */
 shell.definition.function {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 shell.string-template {
-  color: #b4abbe;
+  color: #91889b;
 }
 
 shell.keyword.builtin-command {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 shell.operator {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 /* Makefile */
 makefile.identifier {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 makefile.identifier.dependencies {
-  color: #b4abbe;
+  color: #91889b;
 }
 
 /* INI */
 ini.pair.identifier.key {
-  color: #1ed3ec;
+  color: #40b4c4;
 }
 
 ini.pair.operator.equals {
-  color: #b4a8c8;
+  color: #7b6995;
 }
 
 /* Terminal */
@@ -411,7 +411,7 @@ terminal.blue {
 }
 
 terminal.bright-blue {
-  color: #1ed3ec;
+  color: #40b4c4;
 }
 
 terminal.cyan {
@@ -419,7 +419,7 @@ terminal.cyan {
 }
 
 terminal.bright-cyan {
-  color: #acdfef;
+  color: #b4dce7;
 }
 
 terminal.green {
@@ -427,7 +427,7 @@ terminal.green {
 }
 
 terminal.bright-green {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 terminal.magenta {
@@ -435,7 +435,7 @@ terminal.magenta {
 }
 
 terminal.bright-magenta {
-  color: #d887f5;
+  color: #b381c5;
 }
 
 terminal.red {
@@ -443,7 +443,7 @@ terminal.red {
 }
 
 terminal.bright-red {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 terminal.yellow {
@@ -467,12 +467,12 @@ javascript.colon,
 javascript.comma,
 javascript.dot,
 javascript.semicolon {
-  color: #b4a8c8;
+  color: #7b6995;
 }
 
 javascript.identifier.function,
 javascript.identifier.method {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 javascript.identifier.core.global {
@@ -485,7 +485,7 @@ javascript.identifier.property {
 }
 
 javascript.keyword.construct {
-  color: #d887f5;
+  color: #b381c5;
 }
 
 /* JSX */
@@ -494,11 +494,11 @@ jsx.tag-content.bare-words {
 }
 
 jsx.value.variable {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 jsx.value.variable.bracket {
-  color: #b4a8c8;
+  color: #7b6995;
 }
 
 /* Typescript */
@@ -506,7 +506,7 @@ typescript.colon,
 typescript.comma,
 typescript.dot,
 typescript.semicolon {
-  color: #b4a8c8;
+  color: #7b6995;
 }
 
 typescript.identifier.key.name,
@@ -515,19 +515,19 @@ typescript.identifier.property {
 }
 
 typescript.identifier.constant.name {
-  color: #ff52bf;
+  color: #eb64b9;
 }
 
 typescript.identifier.type.core {
-  color: #d887f5;
+  color: #b381c5;
 }
 
 typescript.identifier.type {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 typescript.keyword.variable.let {
-  color: #d887f5;
+  color: #b381c5;
 }
 
 /* TSX */
@@ -536,16 +536,16 @@ tsx.tag-content.bare-words {
 }
 
 tsx.value.variable {
-  color: #3feabf;
+  color: #74dfc4;
 }
 
 tsx.value.variable.bracket {
-  color: #b4a8c8;
+  color: #7b6995;
 }
 
 /* Elm */
 elm.comma {
-  color: #b4a8c8;
+  color: #7b6995;
 }
 
 /*# sourceMappingURL=laserwave.css.map */
