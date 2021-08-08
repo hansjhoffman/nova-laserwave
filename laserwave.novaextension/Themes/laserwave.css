@@ -545,7 +545,8 @@ tsx.value.variable.bracket {
 
 /* Elm */
 elm.comma,
-elm.dot {
+elm.dot,
+elm.underscore {
   color: #7b6995;
 }
 
