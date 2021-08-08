@@ -544,8 +544,13 @@ tsx.value.variable.bracket {
 }
 
 /* Elm */
-elm.comma {
+elm.comma,
+elm.dot {
   color: #7b6995;
+}
+
+elm.identifier.type-variable {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=laserwave.css.map */
