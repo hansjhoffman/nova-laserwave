@@ -1,5 +1,9 @@
 {
   "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\n\nmake build"
+    },
     "run" : {
       "enabled" : true,
       "script" : "#!\/bin\/sh\n\nmake run"

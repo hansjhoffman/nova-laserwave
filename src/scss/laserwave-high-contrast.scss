@@ -625,6 +625,12 @@ tsx.value.variable.bracket {
 
 /* Elm */
 
-elm.comma {
+elm.comma,
+elm.dot,
+elm.underscore {
   color: $roman-silver;
+}
+
+elm.identifier.type-variable {
+  color: $white;
 }
