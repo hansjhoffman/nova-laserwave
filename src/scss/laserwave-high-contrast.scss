@@ -39,7 +39,7 @@ meta.button {
 }
 
 meta.button.disabled {
-  background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
+  background: darken($roman-silver, 20%);
 }
 
 // A button that is being held down by the user
@@ -80,7 +80,7 @@ meta.document.button {
 }
 
 meta.document.button.disabled {
-  background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
+  background: darken($roman-silver, 20%);
 }
 
 meta.document.button.highlighted {

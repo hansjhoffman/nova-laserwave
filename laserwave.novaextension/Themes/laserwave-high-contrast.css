@@ -25,7 +25,7 @@ meta.button {
 }
 
 meta.button.disabled {
-  background: linear-gradient(rgba(61, 63, 67, 0.3), rgba(51, 53, 56, 0.3));
+  background: #7e6aa0;
 }
 
 meta.button.highlighted {
@@ -60,7 +60,7 @@ meta.document.button {
 }
 
 meta.document.button.disabled {
-  background: linear-gradient(rgba(61, 63, 67, 0.3), rgba(51, 53, 56, 0.3));
+  background: #7e6aa0;
 }
 
 meta.document.button.highlighted {
