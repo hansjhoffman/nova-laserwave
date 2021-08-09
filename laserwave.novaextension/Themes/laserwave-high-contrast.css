@@ -562,4 +562,12 @@ nix.semicolon {
   color: #b4a8c8;
 }
 
+/* Elixir */
+elixir.colon,
+elixir.comma,
+elixir.dot,
+elixir.underscore {
+  color: #b4a8c8;
+}
+
 /*# sourceMappingURL=laserwave-high-contrast.css.map */
