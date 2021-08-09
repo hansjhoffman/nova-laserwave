@@ -399,7 +399,7 @@ markup.block.quote {
 
 markup.block.code,
 markup.inline.code {
-  background-color: $raisin-black;
+  background-color: transparent;
   color: $roman-silver;
 }
 
@@ -557,7 +557,7 @@ javascript.identifier.core.global {
 }
 
 javascript.identifier.key.name,
-javascript.identifier.property {
+javascript.identifier.property.name {
   color: $white;
 }
 
@@ -589,7 +589,7 @@ typescript.semicolon {
 }
 
 typescript.identifier.key.name,
-typescript.identifier.property {
+typescript.identifier.property.name {
   color: $white;
 }
 
@@ -631,6 +631,7 @@ elm.underscore {
   color: $roman-silver;
 }
 
-elm.identifier.type-variable {
+elm.identifier.key,
+elm.identifier.type.unit {
   color: $white;
 }
