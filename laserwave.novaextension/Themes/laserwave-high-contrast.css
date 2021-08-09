@@ -555,4 +555,11 @@ elm.identifier.type.unit {
   color: #ffffff;
 }
 
+/* Nix */
+nix.colon,
+nix.dot,
+nix.semicolon {
+  color: #b4a8c8;
+}
+
 /*# sourceMappingURL=laserwave-high-contrast.css.map */
