@@ -329,7 +329,7 @@ markup.block.quote {
 
 markup.block.code,
 markup.inline.code {
-  background-color: #27212e;
+  background-color: transparent;
   color: #7b6995;
 }
 
@@ -480,7 +480,7 @@ javascript.identifier.core.global {
 }
 
 javascript.identifier.key.name,
-javascript.identifier.property {
+javascript.identifier.property.name {
   color: #ffffff;
 }
 
@@ -510,7 +510,7 @@ typescript.semicolon {
 }
 
 typescript.identifier.key.name,
-typescript.identifier.property {
+typescript.identifier.property.name {
   color: #ffffff;
 }
 
@@ -550,7 +550,8 @@ elm.underscore {
   color: #7b6995;
 }
 
-elm.identifier.type-variable {
+elm.identifier.key,
+elm.identifier.type.unit {
   color: #ffffff;
 }
 
