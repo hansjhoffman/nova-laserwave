@@ -1,3 +1,14 @@
+## v0.3.0 - 2021-08-09
+
+### Features
+
+- `[syntax]` Add Elixir punctuation. ([#8](https://github.com/hansjhoffman/nova-laserwave/pull/8))
+- `[syntax]` Add Nix punctuation. ([#7](https://github.com/hansjhoffman/nova-laserwave/pull/7))
+
+### Fixes
+
+- `[syntax]` Ensure JS/TS `identifier.property.name` and `identifier.property.key` are identified correctly. ([#6](https://github.com/hansjhoffman/nova-laserwave/pull/6))
+
 ## v0.2.0 - 2021-08-08
 
 ### Features
