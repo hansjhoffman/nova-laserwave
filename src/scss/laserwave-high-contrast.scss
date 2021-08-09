@@ -635,3 +635,11 @@ elm.identifier.key,
 elm.identifier.type.unit {
   color: $white;
 }
+
+/* Nix */
+
+nix.colon,
+nix.dot,
+nix.semicolon {
+  color: $roman-silver;
+}
