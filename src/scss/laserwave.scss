@@ -478,60 +478,60 @@ terminal.black {
   color: #000;
 }
 
-terminal.bright-black {
-  color: #000;
-}
-
-terminal.blue {
-  color: #40b4c4;
-}
-
-terminal.bright-blue {
-  color: $maximum-blue;
-}
-
-terminal.cyan {
-  color: #b4dce7;
-}
-
-terminal.bright-cyan {
-  color: $powder-blue;
+terminal.red {
+  color: #eb64b9;
 }
 
 terminal.green {
   color: #74dfc4;
 }
 
-terminal.bright-green {
-  color: $pearl-aqua;
+terminal.yellow {
+  color: $mustard;
+}
+
+terminal.blue {
+  color: #40b4c4;
 }
 
 terminal.magenta {
   color: #b381c5;
 }
 
-terminal.bright-magenta {
-  color: $african-violet;
+terminal.cyan {
+  color: #b4dce7;
 }
 
-terminal.red {
-  color: #eb64b9;
+terminal.white {
+  color: $white;
+}
+
+terminal.bright-black {
+  color: #000;
 }
 
 terminal.bright-red {
   color: $hot-pink;
 }
 
-terminal.yellow {
-  color: $mustard;
+terminal.bright-green {
+  color: $pearl-aqua;
 }
 
 terminal.bright-yellow {
   color: $mustard;
 }
 
-terminal.white {
-  color: $white;
+terminal.bright-blue {
+  color: $maximum-blue;
+}
+
+terminal.bright-magenta {
+  color: $african-violet;
+}
+
+terminal.bright-cyan {
+  color: $powder-blue;
 }
 
 terminal.bright-white {
@@ -639,6 +639,7 @@ elm.identifier.type.unit {
 /* Nix */
 
 nix.colon,
+nix.comma,
 nix.dot,
 nix.semicolon {
   color: $roman-silver;
