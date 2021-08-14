@@ -399,63 +399,63 @@ ini.pair.operator.equals {
 
 /* Terminal */
 terminal.black {
-  color: #000;
-}
-
-terminal.bright-black {
-  color: #000;
-}
-
-terminal.blue {
-  color: #40b4c4;
-}
-
-terminal.bright-blue {
-  color: #40b4c4;
-}
-
-terminal.cyan {
-  color: #b4dce7;
-}
-
-terminal.bright-cyan {
-  color: #b4dce7;
-}
-
-terminal.green {
-  color: #74dfc4;
-}
-
-terminal.bright-green {
-  color: #74dfc4;
-}
-
-terminal.magenta {
-  color: #b381c5;
-}
-
-terminal.bright-magenta {
-  color: #b381c5;
+  color: #ffffff;
 }
 
 terminal.red {
   color: #eb64b9;
 }
 
-terminal.bright-red {
-  color: #eb64b9;
+terminal.green {
+  color: #74dfc4;
 }
 
 terminal.yellow {
   color: #ffe261;
 }
 
-terminal.bright-yellow {
-  color: #ffe261;
+terminal.blue {
+  color: #40b4c4;
+}
+
+terminal.magenta {
+  color: #b381c5;
+}
+
+terminal.cyan {
+  color: #b4dce7;
 }
 
 terminal.white {
   color: #ffffff;
+}
+
+terminal.bright-black {
+  color: #ffffff;
+}
+
+terminal.bright-red {
+  color: #ff52bf;
+}
+
+terminal.bright-green {
+  color: #3feabf;
+}
+
+terminal.bright-yellow {
+  color: #ffe261;
+}
+
+terminal.bright-blue {
+  color: #1ed3ec;
+}
+
+terminal.bright-magenta {
+  color: #d887f5;
+}
+
+terminal.bright-cyan {
+  color: #acdfef;
 }
 
 terminal.bright-white {
@@ -557,6 +557,7 @@ elm.identifier.type.unit {
 
 /* Nix */
 nix.colon,
+nix.comma,
 nix.dot,
 nix.semicolon {
   color: #7b6995;
