@@ -608,4 +608,12 @@ lua.separator {
   color: #b4a8c8;
 }
 
+/* Rust */
+rust.colon,
+rust.comma,
+rust.dot,
+rust.semicolon {
+  color: #b4a8c8;
+}
+
 /*# sourceMappingURL=laserwave-high-contrast.css.map */
