@@ -563,6 +563,10 @@ nix.semicolon {
   color: #b4a8c8;
 }
 
+nix.identifier.constant.name {
+  color: #ff52bf;
+}
+
 /* Elixir */
 elixir.colon,
 elixir.comma,
