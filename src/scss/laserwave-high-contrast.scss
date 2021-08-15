@@ -693,3 +693,12 @@ lua.comma,
 lua.separator {
   color: $roman-silver;
 }
+
+/* Rust */
+
+rust.colon,
+rust.comma,
+rust.dot,
+rust.semicolon {
+  color: $roman-silver;
+}
