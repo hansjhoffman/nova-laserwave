@@ -602,4 +602,10 @@ python.keyword.operator {
   color: #74dfc4;
 }
 
+/* Lua */
+lua.comma,
+lua.separator {
+  color: #7b6995;
+}
+
 /*# sourceMappingURL=laserwave.css.map */
