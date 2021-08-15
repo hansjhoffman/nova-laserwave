@@ -670,3 +670,19 @@ ruby.separator {
 ruby.keyword.construct {
   color: $maximum-blue;
 }
+
+/* Python */
+
+python.colon,
+python.separator {
+  color: $roman-silver;
+}
+
+python.keyword.construct {
+  color: $maximum-blue;
+}
+
+python.keyword.modifier,
+python.keyword.operator {
+  color: $pearl-aqua;
+}

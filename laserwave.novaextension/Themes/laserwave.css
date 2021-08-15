@@ -587,4 +587,19 @@ ruby.keyword.construct {
   color: #40b4c4;
 }
 
+/* Python */
+python.colon,
+python.separator {
+  color: #7b6995;
+}
+
+python.keyword.construct {
+  color: #40b4c4;
+}
+
+python.keyword.modifier,
+python.keyword.operator {
+  color: #74dfc4;
+}
+
 /*# sourceMappingURL=laserwave.css.map */
