@@ -575,4 +575,16 @@ elixir.underscore {
   color: #7b6995;
 }
 
+/* Ruby */
+ruby.colon,
+ruby.comma,
+ruby.dot,
+ruby.separator {
+  color: #7b6995;
+}
+
+ruby.keyword.construct {
+  color: #40b4c4;
+}
+
 /*# sourceMappingURL=laserwave.css.map */
