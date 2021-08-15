@@ -616,4 +616,10 @@ rust.semicolon {
   color: #b4a8c8;
 }
 
+/* Haskell */
+haskell.comma,
+haskell.dot {
+  color: #b4a8c8;
+}
+
 /*# sourceMappingURL=laserwave-high-contrast.css.map */
