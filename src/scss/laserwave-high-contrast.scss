@@ -645,6 +645,10 @@ nix.semicolon {
   color: $roman-silver;
 }
 
+nix.identifier.constant.name {
+  color: $hot-pink;
+}
+
 /* Elixir */
 
 elixir.colon,
