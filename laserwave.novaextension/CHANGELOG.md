@@ -1,3 +1,18 @@
+## v0.4.0 - 2021-08-14
+
+### Features
+
+- `[syntax]` Add Haskell punctuation. ([#16](https://github.com/hansjhoffman/nova-laserwave/pull/16))
+- `[syntax]` Add Rust punctuation. ([#15](https://github.com/hansjhoffman/nova-laserwave/pull/15))
+- `[syntax]` Add Lua punctuation. ([#14](https://github.com/hansjhoffman/nova-laserwave/pull/14))
+- `[syntax]` Add Python punctuation. ([#13](https://github.com/hansjhoffman/nova-laserwave/pull/13))
+- `[syntax]` Add Ruby support. ([#12](https://github.com/hansjhoffman/nova-laserwave/pull/12))
+
+### Fixes
+
+- `[syntax]` Improve Nix constant theme support. ([#11](https://github.com/hansjhoffman/nova-laserwave/pull/11))
+- `[syntax]` Fix terminal ANSI colors palette. ([#10](https://github.com/hansjhoffman/nova-laserwave/pull/10))
+
 ## v0.3.0 - 2021-08-09
 
 ### Features
