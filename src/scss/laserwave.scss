@@ -657,3 +657,16 @@ elixir.dot,
 elixir.underscore {
   color: $roman-silver;
 }
+
+/* Ruby */
+
+ruby.colon,
+ruby.comma,
+ruby.dot,
+ruby.separator {
+  color: $roman-silver;
+}
+
+ruby.keyword.construct {
+  color: $maximum-blue;
+}
