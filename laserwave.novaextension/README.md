@@ -35,6 +35,14 @@ A clean 80's synthwave / outrun inspired theme for Nova.
 - SQL
 - INI
 - Elm
+- Nix
+- Ruby
+- Python
+- Elixir (partial)
+- Rust (partial)
+- Haskell (partial)
+- Rust (partial)
+- Lua (partial)
 
 ## Acknowledgements
 
