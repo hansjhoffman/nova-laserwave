@@ -1,4 +1,0 @@
-{
-  "hansjhoffman.nix.config.formatOnSave" : true,
-  "hansjhoffman.nix.config.nixFormatPath" : "\/nix\/store\/af15lh5ds3xdsz9wbw2vx3p46pbkz4ym-nixfmt-0.4.0\/bin\/nixfmt"
-}
