@@ -1,6 +1,6 @@
 # misc
 .DS_Store
-.nova/Configuration
+.nova/Configuration.json
 .idea
 .vscode
 
