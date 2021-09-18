@@ -1,13 +1,11 @@
 # misc
 .DS_Store
-
-# Text Editor
-.nova/Configuration
+.nova/Configuration.json
 .idea
 .vscode
 
 # Dependencies
-**/node_modules/**
+node_modules/
 /.pnp
 .pnp.js
 
