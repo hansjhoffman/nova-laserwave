@@ -31,7 +31,7 @@ targets:
 	@echo "\033[34m---------------------------------------------------------------\033[0m"
 	@perl -nle'print $& if m{^[a-zA-Z_-]+:.*?## .*$$}' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-22s\033[0m %s\n", $$1, $$2}'
 
-# Development targets
+# Build targets
 # -------------------
 
 .PHONY: build
@@ -41,10 +41,20 @@ build: ## Make a production build
 .PHONY: clean
 clean: ## Remove build artifacts
 	rm -rf laserwave.novaextension/Themes
+	
+# Development targets
+# -------------------
 
 .PHONY: deps
 deps: ## Install all dependencies
 	yarn install
+
+.PHONY: run
+run: ## Watch for code changes and recompile
+	yarn sass --watch src/scss:laserwave.novaextension/Themes
+
+# Check, lint, format and test targets
+# ------------------------------------
 
 .PHONY: format
 format: format-css ## Format css files
@@ -52,7 +62,3 @@ format: format-css ## Format css files
 .PHONY: format-css
 format-css: ## Format typescript files
 	yarn prettier --write 'src/**/*.scss'
-
-.PHONY: run
-run: ## Watch for code changes and recompile
-	yarn sass --watch src/scss:laserwave.novaextension/Themes
