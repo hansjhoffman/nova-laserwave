@@ -18,11 +18,11 @@
     "prepare": "is-ci || husky install"
   },
   "devDependencies": {
-    "husky": "^7.0.2",
-    "is-ci": "^3.0.0",
-    "lint-staged": "^11.1.2",
+    "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^11.2.6",
     "prettier": "^2.4.1",
-    "sass": "^1.42.1"
+    "sass": "^1.43.4"
   },
   "lint-staged": {
     "src/**/*.scss": [
