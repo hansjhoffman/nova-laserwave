@@ -263,18 +263,21 @@ style.attribute.name {
 
 style.attribute.separator,
 style.selector.operator,
+style.selector.separator,
 style.value.color.hsl.bracket,
 style.value.color.hsla.bracket,
 style.value.function.bracket {
-  color: #b4abbe;
+  color: #b4a8c8;
 }
 
+style.selector.pseudoclass,
 style.selector.pseudoelement,
 style.selector.identifier.name.class {
   color: #ff52bf;
 }
 
-style.selector.simple.element.identifier.name {
+style.selector.simple.element.identifier.name,
+style.selector.simple.global {
   color: #3feabf;
 }
 
