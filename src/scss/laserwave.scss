@@ -332,18 +332,21 @@ style.attribute.name {
 
 style.attribute.separator,
 style.selector.operator,
+style.selector.separator,
 style.value.color.hsl.bracket,
 style.value.color.hsla.bracket,
 style.value.function.bracket {
-  color: $old-lavender;
+  color: $roman-silver;
 }
 
+style.selector.pseudoclass,
 style.selector.pseudoelement,
 style.selector.identifier.name.class {
   color: $hot-pink;
 }
 
-style.selector.simple.element.identifier.name {
+style.selector.simple.element.identifier.name,
+style.selector.simple.global {
   color: $pearl-aqua;
 }
 
