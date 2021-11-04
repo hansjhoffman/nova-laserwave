@@ -1,3 +1,14 @@
+## v0.5.0 - 2021-11-03
+
+### Chore & Maintenance
+
+- `[core]` Add niv to manage nix deps. ([#20](https://github.com/hansjhoffman/nova-laserwave/pull/20)) Update extension & dev dependencies
+- `[core]` Update extension & dev dependencies
+
+### Fixes
+
+- `[syntax]` Ensure CSS `style.selector.pseudoclass` styles match `style.selector.pseudoelement`. ([#30](https://github.com/hansjhoffman/nova-laserwave/pull/30))
+
 ## v0.4.0 - 2021-08-14
 
 ### Features
