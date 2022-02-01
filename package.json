@@ -22,7 +22,7 @@
     "is-ci": "^3.0.1",
     "lint-staged": "^12.1.4",
     "prettier": "^2.5.1",
-    "sass": "^1.45.2"
+    "sass": "^1.49.3"
   },
   "lint-staged": {
     "src/**/*.scss": [
