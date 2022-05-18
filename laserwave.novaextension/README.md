@@ -5,7 +5,7 @@
   <img alt="build status badge" src="https://github.com/hansjhoffman/nova-laserwave/actions/workflows/main.yml/badge.svg?branch=master" />
   <img alt="code style prettier badge" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat" />
   <img alt="mit license badge" src="https://img.shields.io/badge/License-MIT-blue.svg" />
-  <img alt="maintained badge" src="https://img.shields.io/badge/Maintained%3F-yes-blue.svg" />
+  <img alt="maintained badge" src="https://img.shields.io/badge/Maintained%3F-no-yellow.svg" />
 </p>
 
 ---
